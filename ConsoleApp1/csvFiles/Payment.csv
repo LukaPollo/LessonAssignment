@@ -1,0 +1,1501 @@
+PaymentId;OrderId;PaymentDate;PaymentMethod;PaymentStatus;Amount
+1;1;2025-02-04;Debit Card;Failed;1716.83
+2;2;2025-07-20;Google Pay;Paid;1573.90
+3;3;2025-07-12;Credit Card;Failed;467.77
+4;4;2025-02-04;Google Pay;Paid;630.47
+5;5;2025-10-27;Bank Transfer;Pending;1327.31
+6;6;2025-01-25;Apple Pay;Failed;643.85
+7;7;2025-12-17;Debit Card;Pending;844.35
+8;8;2025-11-22;Bank Transfer;Failed;340.37
+9;9;2025-08-24;Bank Transfer;Failed;81.02
+10;10;2025-04-14;Debit Card;Paid;1596.14
+11;11;2025-09-21;Debit Card;Failed;725.83
+12;12;2025-05-10;Apple Pay;Refunded;80.37
+13;13;2025-05-27;Apple Pay;Pending;652.20
+14;14;2025-12-04;Google Pay;Refunded;607.49
+15;15;2025-08-14;PayPal;Paid;1602.73
+16;16;2025-07-17;PayPal;Refunded;620.18
+17;17;2025-12-22;Apple Pay;Paid;903.08
+18;18;2025-02-12;Debit Card;Paid;1312.84
+19;19;2025-11-07;Debit Card;Paid;1791.25
+20;20;2025-06-14;Google Pay;Paid;198.14
+21;21;2025-06-07;Debit Card;Paid;810.96
+22;22;2025-03-27;Google Pay;Paid;1246.23
+23;23;2025-01-22;Apple Pay;Paid;1312.36
+24;24;2025-05-21;Google Pay;Paid;1156.45
+25;25;2025-12-12;Apple Pay;Paid;1152.96
+26;26;2025-01-17;Credit Card;Refunded;269.86
+27;27;2025-01-20;PayPal;Refunded;240.32
+28;28;2025-07-05;Bank Transfer;Failed;698.40
+29;29;2025-11-07;PayPal;Paid;288.89
+30;30;2025-07-12;Credit Card;Paid;807.43
+31;31;2025-09-29;Google Pay;Paid;670.01
+32;32;2025-05-08;PayPal;Paid;1729.53
+33;33;2025-09-15;Google Pay;Failed;939.18
+34;34;2025-05-15;Google Pay;Refunded;1398.31
+35;35;2025-04-22;Bank Transfer;Refunded;1793.51
+36;36;2025-04-14;Google Pay;Refunded;233.91
+37;37;2025-04-01;Apple Pay;Paid;1619.14
+38;38;2025-12-17;Debit Card;Paid;1742.10
+39;39;2025-12-31;Debit Card;Failed;130.92
+40;40;2025-06-05;Bank Transfer;Paid;1534.68
+41;41;2025-07-06;Debit Card;Refunded;923.13
+42;42;2025-03-15;Bank Transfer;Paid;437.57
+43;43;2025-07-04;Bank Transfer;Paid;1003.93
+44;44;2025-10-11;Debit Card;Pending;246.64
+45;45;2025-06-08;Debit Card;Paid;725.72
+46;46;2025-09-29;Bank Transfer;Refunded;748.27
+47;47;2025-03-06;Google Pay;Paid;1750.70
+48;48;2025-08-19;PayPal;Paid;846.51
+49;49;2025-03-07;Bank Transfer;Refunded;1582.16
+50;50;2025-03-10;Debit Card;Paid;787.22
+51;51;2025-09-23;Credit Card;Pending;288.13
+52;52;2025-06-15;Bank Transfer;Refunded;1683.51
+53;53;2025-09-24;Credit Card;Refunded;1612.44
+54;54;2025-04-13;Debit Card;Refunded;1148.58
+55;55;2025-03-06;Apple Pay;Paid;1130.66
+56;56;2025-09-16;Bank Transfer;Paid;1159.16
+57;57;2025-03-29;Credit Card;Refunded;1190.84
+58;58;2025-10-16;Debit Card;Paid;88.53
+59;59;2025-01-24;PayPal;Paid;1708.16
+60;60;2025-12-02;Apple Pay;Paid;391.29
+61;61;2025-11-13;Credit Card;Failed;1155.60
+62;62;2025-11-27;PayPal;Refunded;1722.62
+63;63;2025-12-17;Debit Card;Paid;739.88
+64;64;2025-12-20;Apple Pay;Pending;121.94
+65;65;2025-09-05;PayPal;Paid;844.03
+66;66;2025-06-11;Debit Card;Paid;1552.75
+67;67;2025-07-24;Apple Pay;Refunded;248.42
+68;68;2025-06-14;Google Pay;Failed;446.50
+69;69;2025-08-19;Credit Card;Paid;457.54
+70;70;2025-05-29;Apple Pay;Paid;1702.51
+71;71;2025-05-08;Apple Pay;Pending;1733.39
+72;72;2025-10-23;Credit Card;Paid;1302.21
+73;73;2025-09-13;Debit Card;Pending;1792.81
+74;74;2025-06-08;Debit Card;Paid;902.81
+75;75;2025-09-18;PayPal;Paid;831.16
+76;76;2025-10-28;Bank Transfer;Refunded;644.92
+77;77;2025-09-13;Credit Card;Pending;1081.57
+78;78;2025-05-27;Credit Card;Paid;972.99
+79;79;2025-03-10;PayPal;Paid;1590.18
+80;80;2025-07-26;Apple Pay;Paid;668.20
+81;81;2025-10-19;PayPal;Paid;1017.84
+82;82;2025-02-07;Apple Pay;Paid;704.63
+83;83;2025-11-16;Bank Transfer;Failed;1229.51
+84;84;2025-02-20;Apple Pay;Paid;718.12
+85;85;2025-03-17;Bank Transfer;Paid;370.32
+86;86;2025-09-16;Google Pay;Paid;86.86
+87;87;2025-06-22;PayPal;Paid;1450.08
+88;88;2025-03-18;PayPal;Pending;1097.18
+89;89;2025-06-19;PayPal;Paid;1677.49
+90;90;2025-07-23;Credit Card;Paid;1783.25
+91;91;2025-10-31;Google Pay;Paid;615.43
+92;92;2025-12-30;Debit Card;Pending;1019.82
+93;93;2025-07-09;Google Pay;Pending;606.26
+94;94;2025-10-26;Credit Card;Failed;564.20
+95;95;2025-11-03;Google Pay;Paid;862.14
+96;96;2025-01-27;Credit Card;Paid;1056.59
+97;97;2025-03-17;Debit Card;Pending;1481.67
+98;98;2025-10-22;PayPal;Pending;1707.55
+99;99;2025-01-11;Bank Transfer;Refunded;802.25
+100;100;2025-08-01;Apple Pay;Refunded;1247.54
+101;101;2025-02-02;Debit Card;Refunded;1274.81
+102;102;2025-10-15;Bank Transfer;Pending;595.21
+103;103;2025-09-29;Bank Transfer;Failed;687.63
+104;104;2025-10-02;Bank Transfer;Failed;626.05
+105;105;2025-11-11;Debit Card;Pending;879.26
+106;106;2025-10-13;Apple Pay;Refunded;547.82
+107;107;2025-12-28;Apple Pay;Failed;384.99
+108;108;2025-06-14;Google Pay;Paid;871.45
+109;109;2025-05-30;Credit Card;Paid;232.55
+110;110;2025-07-23;Credit Card;Paid;1475.80
+111;111;2025-05-29;PayPal;Failed;90.09
+112;112;2025-06-28;Debit Card;Paid;1664.36
+113;113;2025-09-03;PayPal;Paid;396.97
+114;114;2025-10-15;PayPal;Pending;1257.67
+115;115;2025-11-12;Apple Pay;Pending;1337.49
+116;116;2025-01-26;Debit Card;Paid;1210.65
+117;117;2025-11-23;Google Pay;Paid;430.61
+118;118;2025-06-19;Google Pay;Refunded;1295.48
+119;119;2025-01-03;Bank Transfer;Refunded;1736.67
+120;120;2025-12-01;Google Pay;Pending;1684.03
+121;121;2025-12-01;Credit Card;Refunded;371.03
+122;122;2025-05-27;Google Pay;Failed;1167.93
+123;123;2025-11-30;Bank Transfer;Failed;1039.83
+124;124;2025-03-31;Credit Card;Paid;760.92
+125;125;2025-07-24;Debit Card;Paid;1421.51
+126;126;2025-01-20;Credit Card;Paid;31.54
+127;127;2025-06-23;Bank Transfer;Paid;522.94
+128;128;2025-03-10;Bank Transfer;Refunded;1534.14
+129;129;2025-04-09;Google Pay;Failed;1458.73
+130;130;2025-08-25;PayPal;Pending;1172.19
+131;131;2025-01-09;Google Pay;Paid;1329.86
+132;132;2025-04-01;Google Pay;Refunded;1105.55
+133;133;2025-08-07;PayPal;Paid;934.78
+134;134;2025-12-09;Credit Card;Refunded;185.26
+135;135;2025-06-15;Apple Pay;Paid;1685.45
+136;136;2025-07-18;Debit Card;Paid;435.41
+137;137;2025-06-19;Bank Transfer;Refunded;553.97
+138;138;2025-05-15;Apple Pay;Refunded;1181.82
+139;139;2025-02-02;Apple Pay;Failed;1207.00
+140;140;2025-03-24;Google Pay;Paid;738.67
+141;141;2025-12-21;Debit Card;Paid;224.59
+142;142;2025-11-11;Apple Pay;Pending;409.22
+143;143;2025-03-20;Google Pay;Paid;827.14
+144;144;2025-08-02;Apple Pay;Paid;1267.96
+145;145;2025-05-07;Bank Transfer;Paid;1229.41
+146;146;2025-09-29;Apple Pay;Failed;812.45
+147;147;2025-02-09;Google Pay;Pending;1652.28
+148;148;2025-10-09;PayPal;Refunded;1626.66
+149;149;2025-03-28;Bank Transfer;Pending;600.69
+150;150;2025-03-01;Credit Card;Paid;1229.33
+151;151;2025-02-18;Bank Transfer;Paid;1619.52
+152;152;2025-08-22;Credit Card;Paid;250.52
+153;153;2025-10-16;PayPal;Failed;118.06
+154;154;2025-01-13;Credit Card;Paid;721.77
+155;155;2025-10-25;Debit Card;Failed;145.36
+156;156;2025-12-25;Credit Card;Paid;128.81
+157;157;2025-09-01;Credit Card;Paid;71.65
+158;158;2025-03-11;Apple Pay;Paid;1382.00
+159;159;2025-07-13;Credit Card;Paid;1787.25
+160;160;2025-07-14;Credit Card;Failed;685.53
+161;161;2025-12-03;Credit Card;Failed;1550.61
+162;162;2025-10-04;Credit Card;Paid;716.61
+163;163;2025-01-03;Credit Card;Paid;1364.78
+164;164;2025-12-11;PayPal;Paid;1298.58
+165;165;2025-04-29;Apple Pay;Paid;456.81
+166;166;2025-05-23;Bank Transfer;Refunded;351.44
+167;167;2025-01-18;Debit Card;Refunded;1459.92
+168;168;2025-05-06;Credit Card;Paid;382.86
+169;169;2025-08-18;Google Pay;Failed;1082.05
+170;170;2025-05-06;Apple Pay;Paid;1336.87
+171;171;2025-04-30;Apple Pay;Pending;978.47
+172;172;2025-03-14;Apple Pay;Paid;914.45
+173;173;2025-10-23;Debit Card;Paid;584.24
+174;174;2025-05-04;Bank Transfer;Paid;553.65
+175;175;2025-08-02;Credit Card;Refunded;551.39
+176;176;2025-11-17;Debit Card;Refunded;1226.57
+177;177;2025-01-27;Debit Card;Refunded;1750.54
+178;178;2025-09-26;Apple Pay;Failed;583.94
+179;179;2025-03-20;Apple Pay;Refunded;550.30
+180;180;2025-05-06;PayPal;Pending;1531.07
+181;181;2025-08-26;PayPal;Paid;1647.81
+182;182;2025-08-03;Apple Pay;Pending;1009.76
+183;183;2025-05-05;Google Pay;Refunded;470.17
+184;184;2025-08-20;Debit Card;Paid;1527.13
+185;185;2025-01-29;Apple Pay;Paid;494.20
+186;186;2025-02-07;Apple Pay;Refunded;350.87
+187;187;2025-09-04;Credit Card;Paid;387.87
+188;188;2025-01-08;PayPal;Failed;393.08
+189;189;2025-09-03;Bank Transfer;Paid;1647.28
+190;190;2025-07-24;PayPal;Paid;1648.50
+191;191;2025-05-26;Debit Card;Paid;694.48
+192;192;2025-06-08;Apple Pay;Paid;481.89
+193;193;2025-08-28;Credit Card;Paid;191.02
+194;194;2025-06-13;Google Pay;Pending;1647.08
+195;195;2025-08-01;Bank Transfer;Paid;96.60
+196;196;2025-01-10;Google Pay;Paid;480.48
+197;197;2025-06-01;Apple Pay;Pending;287.05
+198;198;2025-07-14;PayPal;Paid;1032.07
+199;199;2025-10-10;Bank Transfer;Failed;1183.48
+200;200;2025-05-14;Debit Card;Pending;1377.60
+201;201;2025-08-25;Apple Pay;Failed;315.30
+202;202;2025-03-14;PayPal;Paid;1300.76
+203;203;2025-10-07;Bank Transfer;Failed;1782.73
+204;204;2025-02-09;PayPal;Refunded;1702.16
+205;205;2025-01-04;Apple Pay;Refunded;751.12
+206;206;2025-02-04;Google Pay;Paid;1277.30
+207;207;2025-09-18;Apple Pay;Paid;828.98
+208;208;2025-12-04;Credit Card;Paid;885.82
+209;209;2025-01-08;Debit Card;Failed;44.86
+210;210;2025-10-03;Credit Card;Paid;1759.80
+211;211;2025-04-03;Bank Transfer;Refunded;206.02
+212;212;2025-05-04;PayPal;Pending;357.60
+213;213;2025-07-02;Google Pay;Failed;492.17
+214;214;2025-07-12;Credit Card;Paid;1727.35
+215;215;2025-12-23;Google Pay;Paid;418.16
+216;216;2025-12-02;Bank Transfer;Paid;1785.14
+217;217;2025-02-18;PayPal;Paid;738.42
+218;218;2025-01-30;PayPal;Failed;1151.60
+219;219;2025-02-13;Debit Card;Refunded;907.25
+220;220;2025-10-19;Bank Transfer;Paid;1759.53
+221;221;2025-04-29;Bank Transfer;Paid;392.38
+222;222;2025-05-21;Debit Card;Pending;98.11
+223;223;2025-10-06;Google Pay;Paid;1020.87
+224;224;2025-06-12;Apple Pay;Paid;42.95
+225;225;2026-01-02;Bank Transfer;Paid;1480.31
+226;226;2025-03-26;Bank Transfer;Pending;1021.67
+227;227;2025-12-13;Credit Card;Paid;1615.30
+228;228;2025-03-13;Google Pay;Pending;1426.04
+229;229;2025-09-15;PayPal;Refunded;1345.64
+230;230;2025-02-20;Credit Card;Paid;795.20
+231;231;2025-11-06;PayPal;Pending;1387.68
+232;232;2025-06-17;PayPal;Refunded;67.88
+233;233;2025-09-10;Bank Transfer;Failed;422.23
+234;234;2025-08-10;Google Pay;Paid;346.54
+235;235;2025-02-13;Credit Card;Paid;1393.32
+236;236;2025-02-08;PayPal;Paid;161.44
+237;237;2025-12-31;Debit Card;Paid;1414.24
+238;238;2025-06-13;Bank Transfer;Pending;658.85
+239;239;2025-06-09;Google Pay;Paid;808.85
+240;240;2025-02-24;Bank Transfer;Paid;251.53
+241;241;2025-08-20;Apple Pay;Pending;1009.22
+242;242;2025-02-22;Apple Pay;Failed;61.88
+243;243;2025-11-02;Credit Card;Refunded;1082.51
+244;244;2025-01-09;Apple Pay;Failed;535.95
+245;245;2025-10-14;PayPal;Refunded;1630.80
+246;246;2025-12-19;Google Pay;Refunded;694.61
+247;247;2025-06-06;PayPal;Paid;494.11
+248;248;2025-03-27;Bank Transfer;Paid;790.90
+249;249;2025-09-06;PayPal;Paid;1412.06
+250;250;2025-05-09;Bank Transfer;Paid;1301.81
+251;251;2025-08-25;Google Pay;Paid;205.95
+252;252;2025-07-23;Debit Card;Refunded;608.01
+253;253;2025-06-19;Google Pay;Failed;800.80
+254;254;2025-06-03;Credit Card;Paid;587.39
+255;255;2025-09-05;Debit Card;Pending;575.82
+256;256;2025-06-01;Apple Pay;Paid;1326.75
+257;257;2025-10-24;Bank Transfer;Paid;1410.82
+258;258;2025-05-25;Debit Card;Paid;1472.44
+259;259;2025-03-02;Apple Pay;Paid;1678.74
+260;260;2025-12-17;PayPal;Paid;1385.20
+261;261;2025-12-30;PayPal;Failed;389.22
+262;262;2025-07-29;Google Pay;Pending;1216.27
+263;263;2025-05-06;Bank Transfer;Pending;466.04
+264;264;2025-07-14;PayPal;Paid;147.03
+265;265;2025-10-28;Bank Transfer;Failed;730.44
+266;266;2025-10-07;Credit Card;Paid;80.63
+267;267;2025-02-26;Bank Transfer;Paid;1387.58
+268;268;2025-03-27;Apple Pay;Failed;1169.89
+269;269;2025-06-19;Apple Pay;Pending;1738.80
+270;270;2025-01-07;PayPal;Refunded;191.01
+271;271;2025-08-19;Google Pay;Pending;682.80
+272;272;2025-06-28;PayPal;Refunded;1795.90
+273;273;2025-06-03;Credit Card;Paid;757.52
+274;274;2025-03-14;Credit Card;Refunded;636.77
+275;275;2025-04-16;Apple Pay;Pending;945.19
+276;276;2025-02-19;Bank Transfer;Refunded;797.13
+277;277;2025-06-15;Apple Pay;Paid;134.91
+278;278;2025-01-14;Bank Transfer;Failed;1530.79
+279;279;2025-12-15;Credit Card;Refunded;1443.09
+280;280;2025-09-23;Bank Transfer;Paid;326.40
+281;281;2025-10-14;Bank Transfer;Failed;776.07
+282;282;2025-07-28;Credit Card;Paid;1139.12
+283;283;2025-07-23;Credit Card;Paid;67.11
+284;284;2025-08-20;Bank Transfer;Refunded;1072.08
+285;285;2025-12-29;Google Pay;Pending;398.41
+286;286;2025-10-23;PayPal;Paid;196.63
+287;287;2025-07-09;PayPal;Paid;596.88
+288;288;2025-05-17;PayPal;Paid;1212.20
+289;289;2025-11-03;Google Pay;Paid;708.72
+290;290;2025-06-28;Bank Transfer;Paid;643.29
+291;291;2025-12-11;Credit Card;Paid;1275.19
+292;292;2025-12-12;Apple Pay;Refunded;254.10
+293;293;2025-06-08;PayPal;Paid;223.75
+294;294;2025-09-19;Apple Pay;Pending;708.41
+295;295;2025-10-22;Apple Pay;Pending;699.92
+296;296;2025-11-22;Apple Pay;Refunded;974.22
+297;297;2025-10-13;Credit Card;Failed;312.85
+298;298;2025-04-07;Debit Card;Refunded;576.53
+299;299;2025-07-04;Google Pay;Paid;1714.04
+300;300;2025-04-11;PayPal;Failed;1470.16
+301;301;2025-07-29;Bank Transfer;Paid;1237.18
+302;302;2025-09-08;Google Pay;Paid;313.55
+303;303;2025-04-25;Credit Card;Refunded;536.38
+304;304;2025-10-05;Bank Transfer;Refunded;530.28
+305;305;2025-10-18;Apple Pay;Paid;1340.40
+306;306;2025-10-10;Debit Card;Paid;926.79
+307;307;2025-05-18;Credit Card;Pending;1398.58
+308;308;2025-08-14;Google Pay;Failed;990.24
+309;309;2025-12-01;Credit Card;Failed;1356.15
+310;310;2025-08-21;Apple Pay;Paid;484.13
+311;311;2025-03-04;Bank Transfer;Paid;1399.50
+312;312;2025-10-31;Google Pay;Paid;1245.10
+313;313;2025-03-27;Google Pay;Refunded;1114.83
+314;314;2025-02-01;Debit Card;Paid;1032.58
+315;315;2025-11-04;Debit Card;Paid;976.70
+316;316;2025-05-29;Apple Pay;Paid;1037.33
+317;317;2025-03-13;Bank Transfer;Paid;1733.55
+318;318;2025-05-24;Credit Card;Paid;1562.68
+319;319;2025-05-08;Debit Card;Refunded;276.04
+320;320;2025-12-13;Google Pay;Failed;715.97
+321;321;2025-11-18;Credit Card;Pending;754.39
+322;322;2025-11-23;Credit Card;Paid;1433.36
+323;323;2025-07-26;PayPal;Paid;935.37
+324;324;2025-08-21;Credit Card;Paid;1711.20
+325;325;2025-02-18;PayPal;Paid;1319.71
+326;326;2025-02-03;Credit Card;Pending;1435.29
+327;327;2025-08-08;Bank Transfer;Paid;1487.35
+328;328;2025-06-16;Google Pay;Paid;1493.59
+329;329;2025-10-17;Google Pay;Pending;1536.57
+330;330;2025-01-25;PayPal;Refunded;192.74
+331;331;2025-03-06;Debit Card;Paid;1674.04
+332;332;2025-08-23;Credit Card;Paid;16.21
+333;333;2025-12-21;Apple Pay;Refunded;1638.29
+334;334;2025-03-25;Credit Card;Paid;1575.85
+335;335;2025-12-03;PayPal;Pending;658.38
+336;336;2025-12-09;Apple Pay;Failed;1628.28
+337;337;2025-07-22;Debit Card;Failed;1131.70
+338;338;2025-08-10;PayPal;Paid;1185.04
+339;339;2025-01-01;Apple Pay;Paid;395.96
+340;340;2025-11-02;Credit Card;Failed;418.75
+341;341;2025-01-07;Debit Card;Paid;29.39
+342;342;2025-08-06;Credit Card;Paid;1253.85
+343;343;2025-04-28;PayPal;Paid;698.78
+344;344;2025-02-22;Credit Card;Refunded;574.33
+345;345;2025-07-17;Debit Card;Paid;1395.63
+346;346;2025-11-26;Bank Transfer;Paid;1787.40
+347;347;2025-09-29;PayPal;Refunded;1020.47
+348;348;2025-08-16;Google Pay;Paid;641.87
+349;349;2025-07-31;Google Pay;Pending;1114.70
+350;350;2025-02-15;Apple Pay;Pending;1615.42
+351;351;2025-10-29;PayPal;Paid;1318.07
+352;352;2025-06-11;Google Pay;Refunded;1427.07
+353;353;2025-11-28;Bank Transfer;Paid;165.38
+354;354;2025-12-22;Apple Pay;Paid;62.88
+355;355;2025-04-16;Debit Card;Refunded;939.18
+356;356;2025-07-21;Bank Transfer;Pending;542.54
+357;357;2025-09-12;Apple Pay;Refunded;703.81
+358;358;2025-11-24;PayPal;Failed;1075.16
+359;359;2025-07-04;Apple Pay;Pending;1682.06
+360;360;2025-10-20;Debit Card;Failed;766.24
+361;361;2025-08-31;PayPal;Refunded;1718.70
+362;362;2025-01-09;Bank Transfer;Paid;1063.44
+363;363;2025-04-21;Apple Pay;Paid;86.09
+364;364;2025-09-19;Bank Transfer;Paid;526.38
+365;365;2025-08-07;Google Pay;Failed;1267.73
+366;366;2025-05-24;Bank Transfer;Paid;164.22
+367;367;2025-03-21;Debit Card;Paid;972.46
+368;368;2025-06-09;Debit Card;Paid;1262.14
+369;369;2025-01-30;Credit Card;Paid;451.40
+370;370;2025-08-23;PayPal;Paid;1107.95
+371;371;2025-12-08;PayPal;Paid;1338.92
+372;372;2025-03-03;PayPal;Refunded;37.61
+373;373;2025-03-25;Google Pay;Paid;901.10
+374;374;2025-03-27;Bank Transfer;Failed;678.79
+375;375;2025-03-03;Debit Card;Failed;1392.00
+376;376;2025-08-08;Bank Transfer;Paid;500.49
+377;377;2026-01-02;Debit Card;Failed;1755.47
+378;378;2025-09-12;Credit Card;Failed;827.53
+379;379;2025-09-14;Google Pay;Failed;1548.96
+380;380;2025-03-24;Credit Card;Failed;470.38
+381;381;2025-04-29;Bank Transfer;Refunded;1337.29
+382;382;2025-01-08;PayPal;Paid;451.52
+383;383;2025-07-16;Debit Card;Paid;1657.60
+384;384;2025-10-12;Bank Transfer;Paid;1448.56
+385;385;2025-04-26;Bank Transfer;Paid;589.42
+386;386;2025-05-19;Bank Transfer;Paid;1489.40
+387;387;2025-03-05;PayPal;Failed;911.14
+388;388;2025-04-26;Debit Card;Failed;1450.74
+389;389;2025-02-05;PayPal;Paid;1580.43
+390;390;2025-06-19;Apple Pay;Paid;169.20
+391;391;2025-07-09;PayPal;Paid;373.20
+392;392;2025-11-16;Credit Card;Failed;448.01
+393;393;2025-04-13;Credit Card;Paid;1322.45
+394;394;2025-03-21;Credit Card;Paid;26.38
+395;395;2025-05-01;Credit Card;Pending;981.66
+396;396;2025-06-23;PayPal;Paid;17.61
+397;397;2025-06-08;PayPal;Pending;200.55
+398;398;2025-08-03;Apple Pay;Paid;893.27
+399;399;2026-01-01;Apple Pay;Paid;514.49
+400;400;2025-09-25;PayPal;Refunded;752.31
+401;401;2025-02-14;Bank Transfer;Refunded;1051.68
+402;402;2025-11-23;PayPal;Failed;1478.63
+403;403;2025-08-11;Credit Card;Paid;1197.46
+404;404;2025-05-30;Credit Card;Paid;480.87
+405;405;2025-12-25;PayPal;Refunded;1499.94
+406;406;2025-08-22;Bank Transfer;Paid;500.44
+407;407;2025-03-11;Credit Card;Paid;1407.19
+408;408;2025-03-23;PayPal;Failed;203.60
+409;409;2025-06-10;Google Pay;Paid;740.62
+410;410;2025-04-18;Credit Card;Paid;821.67
+411;411;2025-03-03;PayPal;Paid;176.40
+412;412;2025-12-28;PayPal;Refunded;1258.93
+413;413;2025-06-19;Bank Transfer;Paid;279.76
+414;414;2025-07-04;Debit Card;Paid;722.30
+415;415;2025-05-16;Bank Transfer;Paid;1478.86
+416;416;2025-07-27;PayPal;Paid;1540.46
+417;417;2025-02-20;Bank Transfer;Refunded;839.75
+418;418;2025-01-08;Google Pay;Paid;125.08
+419;419;2025-03-10;Apple Pay;Paid;368.67
+420;420;2025-12-20;Bank Transfer;Refunded;1140.08
+421;421;2025-10-27;PayPal;Paid;1061.22
+422;422;2025-02-05;Bank Transfer;Paid;367.98
+423;423;2025-03-07;PayPal;Paid;179.18
+424;424;2025-01-24;Credit Card;Paid;1696.97
+425;425;2025-10-23;Debit Card;Refunded;788.18
+426;426;2025-09-14;Google Pay;Paid;67.63
+427;427;2025-04-01;Credit Card;Paid;646.79
+428;428;2025-05-25;Credit Card;Paid;811.13
+429;429;2025-11-11;Google Pay;Paid;1120.23
+430;430;2025-09-14;Bank Transfer;Paid;750.41
+431;431;2025-02-02;Credit Card;Paid;171.58
+432;432;2025-08-03;Apple Pay;Failed;371.03
+433;433;2025-11-21;PayPal;Paid;1789.45
+434;434;2025-07-17;Bank Transfer;Refunded;1410.72
+435;435;2025-10-06;Apple Pay;Paid;1409.86
+436;436;2025-07-18;Debit Card;Paid;497.73
+437;437;2025-11-03;Bank Transfer;Failed;405.95
+438;438;2025-02-01;Debit Card;Pending;1458.45
+439;439;2025-10-27;Credit Card;Paid;1799.30
+440;440;2025-05-08;Debit Card;Refunded;1187.50
+441;441;2025-04-24;Apple Pay;Refunded;1042.61
+442;442;2025-03-30;Debit Card;Pending;329.34
+443;443;2025-12-24;Google Pay;Paid;655.43
+444;444;2025-12-27;Credit Card;Pending;1265.50
+445;445;2025-10-16;PayPal;Paid;1707.84
+446;446;2025-04-01;Google Pay;Failed;890.43
+447;447;2025-05-01;PayPal;Paid;1088.97
+448;448;2025-01-01;Apple Pay;Paid;607.15
+449;449;2025-03-09;Bank Transfer;Paid;623.25
+450;450;2025-01-31;Bank Transfer;Failed;54.11
+451;451;2025-02-27;Apple Pay;Paid;1525.97
+452;452;2025-07-11;Bank Transfer;Paid;1272.60
+453;453;2025-10-29;Credit Card;Paid;195.34
+454;454;2025-03-13;Bank Transfer;Refunded;1756.91
+455;455;2025-11-25;Debit Card;Paid;1729.78
+456;456;2025-03-31;Bank Transfer;Paid;1277.32
+457;457;2025-04-27;PayPal;Failed;1202.97
+458;458;2025-06-09;Bank Transfer;Failed;1325.18
+459;459;2025-04-02;Credit Card;Refunded;1315.96
+460;460;2025-10-18;Google Pay;Paid;72.80
+461;461;2025-11-10;Debit Card;Paid;409.30
+462;462;2025-09-12;Credit Card;Failed;266.05
+463;463;2025-05-03;Debit Card;Paid;634.06
+464;464;2025-11-24;Credit Card;Paid;1595.30
+465;465;2025-08-17;Apple Pay;Refunded;35.34
+466;466;2025-12-23;Bank Transfer;Pending;136.01
+467;467;2025-01-02;Credit Card;Paid;100.94
+468;468;2025-03-29;Google Pay;Paid;1593.93
+469;469;2025-06-30;Debit Card;Paid;989.65
+470;470;2025-10-23;PayPal;Refunded;1176.98
+471;471;2025-03-26;Google Pay;Failed;820.55
+472;472;2025-01-12;Google Pay;Paid;583.91
+473;473;2025-06-25;Debit Card;Failed;318.64
+474;474;2025-02-10;Apple Pay;Pending;991.48
+475;475;2025-11-03;PayPal;Refunded;1773.72
+476;476;2025-08-09;Debit Card;Paid;1697.26
+477;477;2025-03-24;Credit Card;Paid;110.60
+478;478;2025-04-08;PayPal;Pending;745.56
+479;479;2025-12-05;Credit Card;Refunded;517.52
+480;480;2025-01-27;Bank Transfer;Paid;716.33
+481;481;2025-03-20;Debit Card;Paid;112.29
+482;482;2025-02-14;Debit Card;Refunded;540.77
+483;483;2025-04-13;Apple Pay;Paid;188.12
+484;484;2025-11-24;Apple Pay;Paid;535.88
+485;485;2025-03-02;Debit Card;Pending;565.41
+486;486;2025-09-08;Credit Card;Paid;1612.36
+487;487;2025-11-27;Google Pay;Paid;986.26
+488;488;2025-07-15;Apple Pay;Failed;674.38
+489;489;2025-05-15;Debit Card;Paid;799.94
+490;490;2025-05-18;PayPal;Refunded;1022.18
+491;491;2025-02-14;Bank Transfer;Pending;1207.63
+492;492;2025-10-31;PayPal;Failed;421.11
+493;493;2025-09-26;Google Pay;Pending;762.26
+494;494;2025-10-22;PayPal;Pending;1588.75
+495;495;2025-02-10;PayPal;Paid;719.73
+496;496;2025-09-17;PayPal;Failed;1034.63
+497;497;2025-03-05;Apple Pay;Pending;1709.42
+498;498;2025-03-27;PayPal;Refunded;1750.31
+499;499;2025-01-24;Google Pay;Refunded;770.72
+500;500;2025-04-14;Debit Card;Pending;1795.13
+501;501;2025-11-01;Google Pay;Paid;475.33
+502;502;2025-02-15;Bank Transfer;Paid;707.76
+503;503;2025-05-22;Apple Pay;Refunded;942.64
+504;504;2025-03-01;Bank Transfer;Paid;754.78
+505;505;2025-02-24;Google Pay;Paid;1019.39
+506;506;2025-10-02;Bank Transfer;Refunded;1586.04
+507;507;2025-07-16;PayPal;Refunded;1183.80
+508;508;2025-01-22;Apple Pay;Pending;322.38
+509;509;2025-11-15;Debit Card;Paid;1101.45
+510;510;2025-01-22;PayPal;Paid;721.49
+511;511;2025-01-27;Apple Pay;Pending;1346.16
+512;512;2025-01-12;PayPal;Paid;618.09
+513;513;2025-05-24;Apple Pay;Failed;1519.48
+514;514;2025-04-29;PayPal;Failed;254.88
+515;515;2025-06-14;Bank Transfer;Pending;495.91
+516;516;2025-04-09;PayPal;Paid;803.46
+517;517;2025-09-22;Credit Card;Pending;1562.93
+518;518;2025-02-05;Debit Card;Pending;570.35
+519;519;2025-03-13;Debit Card;Failed;1408.22
+520;520;2025-03-31;Apple Pay;Failed;359.08
+521;521;2025-05-10;Debit Card;Paid;74.03
+522;522;2025-12-28;PayPal;Paid;370.41
+523;523;2025-09-17;Credit Card;Pending;723.54
+524;524;2025-05-04;Debit Card;Paid;679.85
+525;525;2025-04-03;Credit Card;Paid;1729.53
+526;526;2025-06-27;PayPal;Paid;306.87
+527;527;2025-05-27;PayPal;Refunded;64.00
+528;528;2025-10-20;Credit Card;Paid;1407.00
+529;529;2025-11-28;PayPal;Paid;416.82
+530;530;2025-12-02;Google Pay;Failed;745.97
+531;531;2025-08-31;Credit Card;Refunded;1642.06
+532;532;2025-11-05;Debit Card;Refunded;1444.54
+533;533;2025-11-08;Bank Transfer;Failed;1452.08
+534;534;2025-08-05;PayPal;Paid;1613.44
+535;535;2025-05-10;Bank Transfer;Paid;404.50
+536;536;2025-10-27;Google Pay;Refunded;197.63
+537;537;2025-10-16;Bank Transfer;Pending;1170.51
+538;538;2025-06-02;PayPal;Paid;1236.68
+539;539;2025-06-24;PayPal;Paid;1779.22
+540;540;2025-05-24;Bank Transfer;Refunded;481.15
+541;541;2025-04-08;Apple Pay;Paid;282.62
+542;542;2025-02-01;Debit Card;Paid;1452.69
+543;543;2025-12-05;Bank Transfer;Failed;585.46
+544;544;2025-12-02;PayPal;Paid;902.81
+545;545;2025-08-03;PayPal;Failed;737.21
+546;546;2025-10-28;Bank Transfer;Failed;1278.90
+547;547;2025-06-25;Bank Transfer;Pending;1311.89
+548;548;2025-12-10;Debit Card;Failed;654.92
+549;549;2025-12-04;Google Pay;Paid;1579.54
+550;550;2025-02-21;Google Pay;Refunded;855.34
+551;551;2025-10-15;Bank Transfer;Paid;1376.81
+552;552;2025-12-03;Bank Transfer;Pending;174.40
+553;553;2025-06-08;Bank Transfer;Paid;765.54
+554;554;2025-05-16;Credit Card;Pending;1060.24
+555;555;2025-08-29;Debit Card;Failed;110.81
+556;556;2025-08-31;Debit Card;Failed;1602.63
+557;557;2025-12-17;PayPal;Paid;696.28
+558;558;2025-01-30;Apple Pay;Failed;1569.47
+559;559;2025-04-14;Credit Card;Pending;626.67
+560;560;2025-03-15;Bank Transfer;Refunded;579.74
+561;561;2025-02-11;Bank Transfer;Failed;885.33
+562;562;2025-06-11;Credit Card;Paid;1147.58
+563;563;2025-05-21;PayPal;Refunded;388.75
+564;564;2025-10-23;PayPal;Failed;1379.60
+565;565;2025-03-08;PayPal;Failed;1111.85
+566;566;2025-07-27;Google Pay;Paid;780.81
+567;567;2025-01-03;Credit Card;Refunded;82.34
+568;568;2025-01-10;Google Pay;Failed;1607.23
+569;569;2025-01-12;Google Pay;Paid;1223.00
+570;570;2025-04-28;Debit Card;Failed;1252.94
+571;571;2025-03-08;Apple Pay;Refunded;198.33
+572;572;2025-03-28;Debit Card;Paid;131.54
+573;573;2025-05-31;Google Pay;Paid;828.83
+574;574;2025-08-12;Google Pay;Paid;1600.03
+575;575;2025-09-10;Credit Card;Pending;656.26
+576;576;2025-07-28;Google Pay;Paid;49.14
+577;577;2025-04-19;Credit Card;Paid;1325.33
+578;578;2025-03-05;Apple Pay;Paid;669.37
+579;579;2025-07-14;Credit Card;Paid;1579.63
+580;580;2025-11-01;Credit Card;Pending;1790.50
+581;581;2025-12-01;Apple Pay;Pending;1507.47
+582;582;2025-08-03;Credit Card;Paid;808.10
+583;583;2025-09-01;Bank Transfer;Pending;1267.83
+584;584;2025-06-04;Debit Card;Failed;766.26
+585;585;2025-11-16;Apple Pay;Refunded;1096.06
+586;586;2025-02-24;Google Pay;Failed;928.18
+587;587;2025-05-25;Bank Transfer;Paid;218.51
+588;588;2025-04-14;Credit Card;Paid;1102.07
+589;589;2025-09-25;Google Pay;Refunded;1752.02
+590;590;2025-06-01;Debit Card;Failed;301.27
+591;591;2025-04-19;Google Pay;Failed;1243.44
+592;592;2025-05-01;Bank Transfer;Pending;19.89
+593;593;2025-02-27;PayPal;Refunded;1505.89
+594;594;2025-03-18;Apple Pay;Pending;1709.76
+595;595;2025-02-22;Google Pay;Paid;1630.03
+596;596;2025-08-23;Bank Transfer;Refunded;1779.77
+597;597;2025-08-26;Bank Transfer;Pending;104.39
+598;598;2025-05-30;Debit Card;Paid;657.98
+599;599;2025-08-08;Bank Transfer;Paid;1333.29
+600;600;2025-01-07;Bank Transfer;Paid;1535.82
+601;601;2025-06-20;PayPal;Paid;653.19
+602;602;2025-02-19;Google Pay;Refunded;680.13
+603;603;2025-03-02;Bank Transfer;Paid;730.39
+604;604;2025-07-18;Debit Card;Pending;1246.48
+605;605;2025-12-01;Bank Transfer;Paid;1596.73
+606;606;2025-03-09;Debit Card;Paid;1257.66
+607;607;2025-02-25;Apple Pay;Paid;757.61
+608;608;2025-10-20;Google Pay;Failed;1225.93
+609;609;2025-07-04;Apple Pay;Paid;1106.27
+610;610;2025-09-05;Google Pay;Paid;1657.91
+611;611;2025-08-15;Google Pay;Refunded;97.06
+612;612;2025-01-09;PayPal;Pending;1272.65
+613;613;2025-12-11;Debit Card;Paid;1573.56
+614;614;2025-08-12;PayPal;Pending;1196.16
+615;615;2025-06-27;Google Pay;Pending;1199.72
+616;616;2025-03-19;Bank Transfer;Failed;1512.67
+617;617;2025-01-08;Debit Card;Failed;1163.47
+618;618;2025-09-13;Apple Pay;Refunded;1566.91
+619;619;2025-06-16;PayPal;Paid;444.99
+620;620;2025-09-19;PayPal;Failed;412.53
+621;621;2025-07-28;PayPal;Failed;1473.53
+622;622;2025-08-18;Bank Transfer;Paid;1445.25
+623;623;2025-09-13;Credit Card;Refunded;813.02
+624;624;2025-12-01;Debit Card;Paid;46.72
+625;625;2025-01-21;Credit Card;Pending;1009.48
+626;626;2025-11-08;Bank Transfer;Paid;1734.26
+627;627;2025-09-18;Google Pay;Paid;1018.76
+628;628;2025-06-24;Debit Card;Refunded;663.57
+629;629;2025-08-22;Bank Transfer;Paid;607.57
+630;630;2025-12-03;Apple Pay;Paid;663.48
+631;631;2025-02-19;Credit Card;Refunded;1370.39
+632;632;2025-06-24;Bank Transfer;Paid;648.92
+633;633;2025-10-10;Google Pay;Paid;946.74
+634;634;2025-01-24;PayPal;Paid;1615.93
+635;635;2025-07-31;Bank Transfer;Pending;205.93
+636;636;2025-04-07;Google Pay;Failed;230.53
+637;637;2025-08-25;Debit Card;Paid;1486.83
+638;638;2025-02-26;Bank Transfer;Pending;1366.51
+639;639;2025-08-21;PayPal;Paid;831.44
+640;640;2025-09-13;Google Pay;Paid;22.74
+641;641;2025-10-12;Apple Pay;Paid;1684.53
+642;642;2025-09-18;Apple Pay;Paid;1409.23
+643;643;2025-03-09;Google Pay;Paid;199.84
+644;644;2025-09-16;Credit Card;Paid;1588.28
+645;645;2025-05-21;PayPal;Pending;725.20
+646;646;2025-08-22;Apple Pay;Paid;1451.56
+647;647;2025-11-06;Debit Card;Refunded;1264.53
+648;648;2025-12-28;Google Pay;Refunded;992.83
+649;649;2025-04-15;Bank Transfer;Paid;389.34
+650;650;2025-12-18;Apple Pay;Pending;631.35
+651;651;2026-01-01;PayPal;Paid;1175.40
+652;652;2026-01-01;Apple Pay;Paid;221.00
+653;653;2025-10-26;Bank Transfer;Pending;1033.59
+654;654;2025-12-14;Bank Transfer;Paid;1349.95
+655;655;2025-08-07;Credit Card;Paid;1457.82
+656;656;2025-01-15;PayPal;Paid;694.85
+657;657;2025-04-13;Bank Transfer;Paid;491.56
+658;658;2025-12-16;Apple Pay;Failed;462.25
+659;659;2025-04-16;Credit Card;Paid;1360.17
+660;660;2025-08-21;PayPal;Pending;197.93
+661;661;2025-11-30;PayPal;Paid;1016.87
+662;662;2025-12-21;PayPal;Paid;1201.12
+663;663;2025-08-04;Apple Pay;Paid;1722.71
+664;664;2025-10-12;Apple Pay;Failed;111.04
+665;665;2025-04-15;Bank Transfer;Failed;1122.70
+666;666;2025-04-26;Apple Pay;Refunded;1642.00
+667;667;2025-10-29;Apple Pay;Pending;990.71
+668;668;2025-04-11;Google Pay;Paid;540.11
+669;669;2025-04-06;PayPal;Pending;1733.02
+670;670;2025-07-14;Debit Card;Paid;87.53
+671;671;2025-03-08;Debit Card;Paid;302.26
+672;672;2025-06-21;Google Pay;Paid;847.40
+673;673;2025-03-22;Credit Card;Paid;1672.60
+674;674;2025-11-18;Credit Card;Failed;1113.86
+675;675;2025-09-11;Google Pay;Paid;1424.99
+676;676;2025-02-08;Credit Card;Pending;1414.50
+677;677;2025-04-07;Google Pay;Failed;944.28
+678;678;2025-08-01;Apple Pay;Pending;984.40
+679;679;2025-06-28;PayPal;Refunded;409.84
+680;680;2025-06-19;Credit Card;Paid;659.02
+681;681;2025-10-16;Apple Pay;Paid;1485.28
+682;682;2025-03-02;PayPal;Pending;1209.06
+683;683;2025-11-26;PayPal;Paid;1110.46
+684;684;2025-01-21;Credit Card;Paid;1233.35
+685;685;2025-02-28;Apple Pay;Failed;703.79
+686;686;2025-01-14;Google Pay;Refunded;1641.73
+687;687;2025-09-23;Credit Card;Failed;1448.03
+688;688;2025-01-24;Credit Card;Pending;544.13
+689;689;2025-06-15;Google Pay;Paid;932.30
+690;690;2025-10-04;Google Pay;Pending;966.77
+691;691;2025-04-20;Debit Card;Paid;1211.55
+692;692;2025-12-18;Credit Card;Failed;772.21
+693;693;2025-10-04;PayPal;Paid;1494.32
+694;694;2025-11-29;Bank Transfer;Paid;1472.91
+695;695;2025-01-13;Debit Card;Paid;834.72
+696;696;2025-02-16;Credit Card;Paid;145.75
+697;697;2025-10-14;Google Pay;Failed;140.74
+698;698;2025-07-30;Credit Card;Paid;707.64
+699;699;2025-08-12;Debit Card;Paid;579.78
+700;700;2025-10-01;Credit Card;Paid;25.53
+701;701;2025-10-28;Debit Card;Paid;96.25
+702;702;2025-09-15;PayPal;Paid;204.45
+703;703;2025-11-09;Google Pay;Paid;169.41
+704;704;2025-07-16;Debit Card;Failed;720.28
+705;705;2025-09-01;Bank Transfer;Refunded;294.04
+706;706;2025-07-20;Google Pay;Paid;1437.24
+707;707;2025-11-21;PayPal;Failed;272.17
+708;708;2025-01-06;Bank Transfer;Refunded;1003.04
+709;709;2025-03-07;PayPal;Paid;89.57
+710;710;2025-10-04;Google Pay;Paid;992.33
+711;711;2025-04-19;Apple Pay;Paid;1350.71
+712;712;2025-04-21;Debit Card;Failed;751.59
+713;713;2025-03-25;PayPal;Refunded;343.43
+714;714;2025-04-12;Apple Pay;Paid;219.60
+715;715;2025-10-09;PayPal;Pending;838.36
+716;716;2025-05-31;Apple Pay;Pending;1213.96
+717;717;2025-04-13;Credit Card;Paid;1310.18
+718;718;2025-07-02;Apple Pay;Paid;243.86
+719;719;2025-02-22;Google Pay;Failed;523.97
+720;720;2025-06-12;Credit Card;Paid;882.26
+721;721;2025-12-24;Debit Card;Paid;1057.74
+722;722;2025-06-11;Google Pay;Pending;1726.21
+723;723;2025-06-12;Bank Transfer;Paid;454.42
+724;724;2025-05-22;Bank Transfer;Paid;1514.60
+725;725;2025-09-04;PayPal;Failed;841.18
+726;726;2025-09-08;PayPal;Paid;999.73
+727;727;2025-05-24;PayPal;Failed;1547.80
+728;728;2025-05-16;Bank Transfer;Paid;1324.38
+729;729;2025-02-09;Bank Transfer;Pending;1607.41
+730;730;2025-10-25;Debit Card;Paid;1048.34
+731;731;2025-01-20;Debit Card;Refunded;999.60
+732;732;2025-12-02;Apple Pay;Paid;1398.73
+733;733;2025-04-27;PayPal;Paid;1606.22
+734;734;2025-03-12;PayPal;Paid;844.49
+735;735;2025-07-25;PayPal;Paid;664.50
+736;736;2025-11-13;Debit Card;Paid;1236.23
+737;737;2025-08-18;Google Pay;Failed;299.21
+738;738;2025-09-06;Bank Transfer;Refunded;1691.43
+739;739;2025-09-09;Credit Card;Paid;428.67
+740;740;2025-05-02;Bank Transfer;Refunded;91.41
+741;741;2025-07-20;PayPal;Failed;853.37
+742;742;2025-01-22;Bank Transfer;Failed;1765.35
+743;743;2025-12-29;Apple Pay;Failed;1743.67
+744;744;2025-05-16;Debit Card;Pending;1047.86
+745;745;2025-07-13;Google Pay;Paid;1181.81
+746;746;2025-09-22;Credit Card;Paid;464.08
+747;747;2025-07-02;PayPal;Paid;1473.77
+748;748;2025-09-04;Apple Pay;Paid;1598.60
+749;749;2025-08-15;Apple Pay;Pending;310.61
+750;750;2025-04-19;Apple Pay;Paid;283.18
+751;751;2025-11-06;PayPal;Refunded;1295.39
+752;752;2025-08-02;Google Pay;Failed;1462.94
+753;753;2025-09-04;Credit Card;Paid;1220.28
+754;754;2025-11-01;Google Pay;Paid;302.82
+755;755;2025-05-06;Debit Card;Pending;92.01
+756;756;2025-03-11;Credit Card;Pending;1138.73
+757;757;2025-01-29;Bank Transfer;Paid;311.92
+758;758;2025-11-04;Bank Transfer;Refunded;1745.10
+759;759;2025-12-07;Debit Card;Pending;1481.03
+760;760;2025-08-18;Apple Pay;Paid;1097.65
+761;761;2025-03-30;Apple Pay;Failed;406.56
+762;762;2025-10-27;Credit Card;Pending;1479.51
+763;763;2025-03-27;PayPal;Paid;1307.67
+764;764;2025-11-03;Bank Transfer;Paid;1069.21
+765;765;2025-07-17;Google Pay;Paid;251.00
+766;766;2025-09-25;Apple Pay;Refunded;1549.37
+767;767;2025-03-18;Debit Card;Paid;1095.84
+768;768;2025-11-13;Credit Card;Paid;1085.67
+769;769;2025-02-19;Apple Pay;Pending;875.80
+770;770;2025-12-16;PayPal;Paid;1173.88
+771;771;2025-07-11;Google Pay;Paid;1576.56
+772;772;2025-04-28;Google Pay;Paid;1690.08
+773;773;2025-06-30;Credit Card;Refunded;1066.45
+774;774;2025-08-07;Apple Pay;Refunded;253.98
+775;775;2025-02-12;Apple Pay;Paid;520.63
+776;776;2025-05-13;Credit Card;Paid;352.40
+777;777;2025-10-25;Bank Transfer;Paid;947.74
+778;778;2025-07-14;Credit Card;Paid;1183.36
+779;779;2025-07-29;PayPal;Failed;661.65
+780;780;2025-12-01;Google Pay;Pending;1059.89
+781;781;2025-10-17;Google Pay;Pending;667.67
+782;782;2025-04-16;Debit Card;Paid;752.61
+783;783;2025-04-03;Apple Pay;Paid;675.83
+784;784;2025-05-11;Bank Transfer;Refunded;1779.49
+785;785;2025-12-29;Bank Transfer;Paid;725.66
+786;786;2025-04-30;Credit Card;Paid;812.17
+787;787;2025-02-22;Credit Card;Paid;397.81
+788;788;2025-10-09;Apple Pay;Paid;1111.04
+789;789;2025-03-24;Apple Pay;Paid;709.55
+790;790;2025-02-17;Apple Pay;Refunded;1484.51
+791;791;2025-02-17;Apple Pay;Failed;129.38
+792;792;2025-02-12;PayPal;Paid;1102.12
+793;793;2025-07-26;Apple Pay;Paid;1110.93
+794;794;2026-01-02;Google Pay;Paid;1734.90
+795;795;2025-11-25;Google Pay;Paid;897.45
+796;796;2025-12-03;Debit Card;Failed;1676.40
+797;797;2025-04-12;Apple Pay;Refunded;74.99
+798;798;2025-11-13;Google Pay;Pending;317.53
+799;799;2025-05-05;Google Pay;Paid;1184.21
+800;800;2025-05-24;Credit Card;Failed;1406.72
+801;801;2025-07-28;Google Pay;Failed;1061.15
+802;802;2025-12-29;Bank Transfer;Paid;137.48
+803;803;2025-10-15;Debit Card;Failed;1648.29
+804;804;2025-05-23;Debit Card;Paid;418.94
+805;805;2025-07-26;PayPal;Paid;1041.21
+806;806;2025-07-29;PayPal;Refunded;918.64
+807;807;2025-09-15;Google Pay;Paid;540.24
+808;808;2025-10-04;Google Pay;Pending;1466.47
+809;809;2025-12-23;Credit Card;Paid;805.34
+810;810;2025-05-07;Apple Pay;Paid;1367.09
+811;811;2025-12-16;Google Pay;Pending;837.39
+812;812;2025-09-06;Debit Card;Pending;222.54
+813;813;2025-11-22;Debit Card;Failed;1422.75
+814;814;2025-06-11;Apple Pay;Paid;751.18
+815;815;2025-12-26;Google Pay;Failed;1500.44
+816;816;2025-02-19;Debit Card;Failed;727.09
+817;817;2025-02-09;PayPal;Paid;1004.87
+818;818;2025-06-11;Credit Card;Paid;646.07
+819;819;2025-04-05;Bank Transfer;Failed;1705.61
+820;820;2025-09-13;Apple Pay;Pending;1330.75
+821;821;2025-05-18;Debit Card;Paid;384.10
+822;822;2025-11-14;Credit Card;Paid;650.51
+823;823;2025-03-03;Bank Transfer;Paid;1657.54
+824;824;2025-11-13;Google Pay;Pending;26.82
+825;825;2025-09-06;Credit Card;Paid;677.59
+826;826;2025-10-22;Bank Transfer;Paid;1565.75
+827;827;2025-09-21;Debit Card;Paid;515.28
+828;828;2025-01-28;Apple Pay;Failed;953.44
+829;829;2025-10-05;Bank Transfer;Paid;73.12
+830;830;2025-12-18;Bank Transfer;Refunded;1399.99
+831;831;2025-12-26;Debit Card;Refunded;940.00
+832;832;2025-01-08;Credit Card;Paid;1218.27
+833;833;2025-06-17;Apple Pay;Failed;660.46
+834;834;2025-10-10;Credit Card;Refunded;484.19
+835;835;2025-11-10;Credit Card;Refunded;627.43
+836;836;2025-08-07;Bank Transfer;Pending;390.80
+837;837;2025-07-08;Bank Transfer;Refunded;1539.97
+838;838;2025-04-04;PayPal;Pending;1034.97
+839;839;2025-02-23;Debit Card;Refunded;1301.66
+840;840;2025-07-15;Google Pay;Failed;364.97
+841;841;2025-09-02;Credit Card;Paid;1453.12
+842;842;2025-09-13;Apple Pay;Failed;255.03
+843;843;2025-09-08;Google Pay;Refunded;550.56
+844;844;2025-07-24;Bank Transfer;Paid;191.67
+845;845;2025-04-22;Debit Card;Failed;1467.67
+846;846;2025-08-21;Apple Pay;Paid;1344.10
+847;847;2025-07-04;Debit Card;Paid;1015.22
+848;848;2025-01-12;PayPal;Paid;749.99
+849;849;2025-10-25;Apple Pay;Failed;1042.97
+850;850;2025-05-28;Apple Pay;Pending;648.87
+851;851;2025-08-18;PayPal;Pending;1602.99
+852;852;2025-08-27;Debit Card;Paid;1142.61
+853;853;2025-11-24;Google Pay;Refunded;1456.78
+854;854;2025-11-20;Bank Transfer;Failed;1107.97
+855;855;2025-02-11;Apple Pay;Failed;304.17
+856;856;2025-06-13;Credit Card;Paid;1180.63
+857;857;2025-11-07;Debit Card;Paid;1165.69
+858;858;2025-07-06;PayPal;Pending;1349.99
+859;859;2025-08-01;Debit Card;Paid;313.66
+860;860;2025-05-02;PayPal;Failed;1196.71
+861;861;2025-04-18;Debit Card;Refunded;312.94
+862;862;2025-02-03;Debit Card;Paid;1687.18
+863;863;2025-01-14;Apple Pay;Failed;1391.12
+864;864;2025-02-23;Credit Card;Failed;483.48
+865;865;2025-12-02;Apple Pay;Failed;1677.89
+866;866;2025-04-28;Credit Card;Pending;456.60
+867;867;2025-11-17;PayPal;Paid;240.64
+868;868;2025-01-16;Apple Pay;Pending;77.75
+869;869;2025-09-03;Bank Transfer;Failed;848.94
+870;870;2025-10-08;Bank Transfer;Paid;809.05
+871;871;2025-10-30;Google Pay;Refunded;1081.69
+872;872;2025-09-26;Bank Transfer;Pending;1157.02
+873;873;2025-06-28;PayPal;Paid;874.75
+874;874;2025-08-15;PayPal;Refunded;564.54
+875;875;2025-03-23;Credit Card;Paid;556.88
+876;876;2025-06-26;Google Pay;Paid;526.87
+877;877;2025-12-21;Credit Card;Paid;1660.93
+878;878;2025-06-03;Apple Pay;Paid;31.30
+879;879;2025-11-03;Bank Transfer;Refunded;427.72
+880;880;2025-04-09;Apple Pay;Refunded;749.95
+881;881;2025-07-22;Google Pay;Refunded;461.06
+882;882;2025-07-14;Credit Card;Pending;408.76
+883;883;2025-11-17;Google Pay;Failed;442.62
+884;884;2025-05-27;Debit Card;Failed;1172.50
+885;885;2025-08-02;Google Pay;Paid;350.58
+886;886;2025-03-13;Google Pay;Paid;531.93
+887;887;2025-11-13;Debit Card;Failed;823.19
+888;888;2025-04-08;Debit Card;Refunded;587.35
+889;889;2025-10-01;PayPal;Pending;54.50
+890;890;2025-05-18;Bank Transfer;Paid;238.19
+891;891;2025-05-02;Bank Transfer;Paid;176.00
+892;892;2025-04-22;Debit Card;Refunded;625.31
+893;893;2025-07-10;Apple Pay;Refunded;842.68
+894;894;2025-02-13;Debit Card;Paid;1520.73
+895;895;2025-05-18;Credit Card;Pending;1399.54
+896;896;2025-04-05;Apple Pay;Paid;358.06
+897;897;2025-01-09;Debit Card;Paid;232.70
+898;898;2025-07-18;Google Pay;Paid;1391.64
+899;899;2025-01-20;Bank Transfer;Refunded;370.54
+900;900;2025-09-26;Debit Card;Refunded;1203.82
+901;901;2025-07-20;Bank Transfer;Failed;1231.37
+902;902;2025-03-25;Debit Card;Paid;1138.06
+903;903;2025-05-10;PayPal;Refunded;873.99
+904;904;2025-07-05;Bank Transfer;Refunded;1599.22
+905;905;2025-02-28;Apple Pay;Paid;436.20
+906;906;2025-01-10;Bank Transfer;Paid;313.74
+907;907;2025-07-22;Debit Card;Paid;1423.62
+908;908;2025-10-26;Bank Transfer;Pending;1413.50
+909;909;2025-07-11;Debit Card;Refunded;1390.87
+910;910;2025-09-14;Credit Card;Paid;178.15
+911;911;2025-11-18;PayPal;Refunded;122.19
+912;912;2025-12-26;PayPal;Refunded;972.39
+913;913;2025-09-08;Google Pay;Paid;430.32
+914;914;2025-08-14;Bank Transfer;Failed;1323.74
+915;915;2025-07-04;Google Pay;Paid;1308.05
+916;916;2025-09-06;PayPal;Paid;1276.33
+917;917;2025-10-07;Debit Card;Pending;1259.21
+918;918;2025-10-06;Apple Pay;Paid;635.58
+919;919;2025-05-22;Google Pay;Paid;1563.78
+920;920;2025-02-06;Bank Transfer;Pending;963.08
+921;921;2025-05-16;Bank Transfer;Paid;981.77
+922;922;2025-11-23;PayPal;Pending;918.13
+923;923;2025-01-12;Debit Card;Paid;1121.23
+924;924;2025-06-16;Credit Card;Paid;1301.99
+925;925;2025-04-09;Bank Transfer;Paid;950.46
+926;926;2025-11-12;Debit Card;Failed;520.39
+927;927;2025-02-26;Google Pay;Paid;186.82
+928;928;2025-01-25;Apple Pay;Paid;1505.82
+929;929;2025-01-17;Apple Pay;Failed;375.71
+930;930;2025-02-20;Google Pay;Paid;71.79
+931;931;2025-12-04;Credit Card;Refunded;889.49
+932;932;2025-01-27;PayPal;Failed;668.94
+933;933;2025-01-07;Google Pay;Paid;1675.43
+934;934;2025-02-12;Debit Card;Paid;850.49
+935;935;2025-07-06;Debit Card;Paid;1011.07
+936;936;2025-12-31;Bank Transfer;Refunded;119.07
+937;937;2025-09-28;PayPal;Paid;87.57
+938;938;2025-02-10;PayPal;Pending;1701.12
+939;939;2025-02-21;Apple Pay;Refunded;1309.43
+940;940;2025-04-08;Credit Card;Paid;359.72
+941;941;2025-10-19;Apple Pay;Paid;1131.21
+942;942;2025-02-26;Bank Transfer;Pending;1382.82
+943;943;2025-12-12;Debit Card;Paid;833.82
+944;944;2025-02-24;Credit Card;Paid;312.75
+945;945;2025-09-18;Google Pay;Paid;617.46
+946;946;2025-06-30;PayPal;Refunded;1625.94
+947;947;2025-07-10;Bank Transfer;Refunded;751.03
+948;948;2025-06-16;Debit Card;Refunded;1101.02
+949;949;2025-07-13;Credit Card;Paid;1381.79
+950;950;2025-07-04;Apple Pay;Refunded;1731.55
+951;951;2025-01-03;Google Pay;Pending;1311.47
+952;952;2025-09-23;Credit Card;Refunded;256.13
+953;953;2025-06-05;Apple Pay;Paid;1772.14
+954;954;2025-01-12;Google Pay;Failed;1392.17
+955;955;2025-10-12;Debit Card;Failed;927.62
+956;956;2025-02-19;PayPal;Pending;82.36
+957;957;2025-03-14;Google Pay;Paid;488.00
+958;958;2025-05-01;PayPal;Pending;472.40
+959;959;2025-10-20;Credit Card;Paid;728.64
+960;960;2025-06-18;Apple Pay;Pending;1430.33
+961;961;2025-12-21;PayPal;Pending;1269.58
+962;962;2025-01-20;Debit Card;Pending;1319.46
+963;963;2025-02-12;PayPal;Pending;1407.52
+964;964;2025-06-29;Google Pay;Failed;1585.43
+965;965;2025-03-05;Debit Card;Pending;1567.57
+966;966;2025-11-21;Bank Transfer;Refunded;1402.69
+967;967;2025-06-07;PayPal;Failed;951.02
+968;968;2025-06-19;Credit Card;Pending;911.79
+969;969;2025-01-26;Apple Pay;Paid;1217.44
+970;970;2025-11-02;Debit Card;Pending;1041.83
+971;971;2025-08-11;Bank Transfer;Failed;532.26
+972;972;2025-03-09;Google Pay;Paid;615.06
+973;973;2025-10-09;Debit Card;Refunded;727.56
+974;974;2025-09-14;Credit Card;Failed;790.57
+975;975;2025-03-11;Debit Card;Pending;873.45
+976;976;2025-07-24;Debit Card;Paid;1179.26
+977;977;2025-05-05;Bank Transfer;Failed;142.88
+978;978;2025-06-16;Apple Pay;Refunded;1237.26
+979;979;2025-03-01;Debit Card;Paid;1214.07
+980;980;2025-06-29;PayPal;Pending;355.02
+981;981;2025-06-07;Google Pay;Paid;317.12
+982;982;2025-11-16;Credit Card;Paid;275.29
+983;983;2025-04-15;Apple Pay;Failed;1238.37
+984;984;2025-02-28;Credit Card;Paid;1335.15
+985;985;2025-05-30;Debit Card;Failed;39.51
+986;986;2025-06-07;Apple Pay;Pending;818.36
+987;987;2025-04-19;Google Pay;Paid;1335.92
+988;988;2025-10-08;Bank Transfer;Refunded;949.03
+989;989;2025-11-16;Apple Pay;Failed;1317.91
+990;990;2025-07-14;Google Pay;Paid;1055.66
+991;991;2025-05-11;Bank Transfer;Refunded;319.02
+992;992;2025-12-23;Bank Transfer;Paid;1118.07
+993;993;2025-12-02;Debit Card;Failed;1702.14
+994;994;2025-12-07;Credit Card;Paid;499.29
+995;995;2025-02-25;Bank Transfer;Paid;49.05
+996;996;2025-04-29;Bank Transfer;Pending;1763.93
+997;997;2025-06-11;Google Pay;Failed;880.12
+998;998;2025-04-07;Debit Card;Refunded;369.99
+999;999;2025-01-23;Bank Transfer;Pending;456.59
+1000;1000;2025-06-20;PayPal;Paid;889.53
+1001;1001;2025-01-11;PayPal;Refunded;634.00
+1002;1002;2025-11-19;PayPal;Failed;554.65
+1003;1003;2025-02-02;Apple Pay;Paid;1132.04
+1004;1004;2025-10-14;Google Pay;Paid;1709.17
+1005;1005;2025-06-24;PayPal;Failed;1616.46
+1006;1006;2025-02-16;Debit Card;Failed;1317.85
+1007;1007;2025-08-04;PayPal;Failed;444.04
+1008;1008;2025-06-11;PayPal;Pending;1638.88
+1009;1009;2025-10-06;Debit Card;Paid;250.21
+1010;1010;2025-10-27;Google Pay;Paid;981.32
+1011;1011;2025-06-08;Apple Pay;Refunded;1244.03
+1012;1012;2025-08-10;Credit Card;Paid;1792.30
+1013;1013;2025-12-03;Debit Card;Paid;1680.46
+1014;1014;2025-02-05;Credit Card;Paid;1009.85
+1015;1015;2025-04-06;Google Pay;Paid;581.91
+1016;1016;2025-06-13;Google Pay;Paid;1586.04
+1017;1017;2025-06-07;Bank Transfer;Paid;805.76
+1018;1018;2025-03-19;Credit Card;Failed;1405.71
+1019;1019;2025-04-06;Apple Pay;Paid;61.76
+1020;1020;2025-11-07;PayPal;Refunded;1027.17
+1021;1021;2025-05-01;Debit Card;Paid;1241.97
+1022;1022;2025-12-21;Credit Card;Paid;1406.99
+1023;1023;2026-01-01;PayPal;Pending;1174.48
+1024;1024;2025-09-11;Google Pay;Paid;860.82
+1025;1025;2025-04-27;Apple Pay;Pending;72.53
+1026;1026;2025-05-20;Apple Pay;Failed;1711.10
+1027;1027;2025-04-17;Google Pay;Paid;133.05
+1028;1028;2025-12-19;Apple Pay;Paid;594.94
+1029;1029;2025-08-07;Google Pay;Paid;737.69
+1030;1030;2025-06-11;Debit Card;Paid;718.56
+1031;1031;2025-09-26;Credit Card;Paid;210.13
+1032;1032;2025-05-08;Apple Pay;Refunded;940.88
+1033;1033;2025-10-14;PayPal;Failed;706.51
+1034;1034;2025-04-10;Apple Pay;Paid;534.76
+1035;1035;2025-05-29;Apple Pay;Refunded;838.50
+1036;1036;2025-11-11;Debit Card;Paid;1655.47
+1037;1037;2025-08-26;Debit Card;Paid;1496.36
+1038;1038;2025-09-14;Apple Pay;Paid;217.01
+1039;1039;2025-07-21;Debit Card;Pending;753.20
+1040;1040;2025-04-02;PayPal;Paid;824.82
+1041;1041;2025-08-21;Debit Card;Failed;175.97
+1042;1042;2025-03-06;Bank Transfer;Refunded;177.78
+1043;1043;2025-11-22;PayPal;Paid;662.85
+1044;1044;2025-09-21;Credit Card;Paid;1107.55
+1045;1045;2025-10-11;Bank Transfer;Pending;694.38
+1046;1046;2025-06-22;Google Pay;Pending;1024.40
+1047;1047;2025-03-26;PayPal;Failed;1565.84
+1048;1048;2025-08-04;Apple Pay;Paid;564.89
+1049;1049;2025-05-30;Debit Card;Paid;1133.22
+1050;1050;2025-04-16;PayPal;Refunded;21.31
+1051;1051;2025-01-07;Bank Transfer;Failed;833.68
+1052;1052;2025-11-09;Bank Transfer;Refunded;1590.62
+1053;1053;2025-10-30;Google Pay;Paid;1192.16
+1054;1054;2025-08-17;Bank Transfer;Refunded;156.74
+1055;1055;2025-05-07;Debit Card;Paid;1589.67
+1056;1056;2025-01-27;Bank Transfer;Refunded;344.94
+1057;1057;2025-01-20;Google Pay;Pending;274.49
+1058;1058;2025-06-19;Apple Pay;Failed;1657.89
+1059;1059;2025-08-02;Bank Transfer;Paid;1788.82
+1060;1060;2025-11-09;Google Pay;Paid;1194.75
+1061;1061;2025-08-22;Bank Transfer;Paid;1352.56
+1062;1062;2025-02-19;Debit Card;Paid;1386.79
+1063;1063;2025-07-16;PayPal;Paid;1479.17
+1064;1064;2025-10-09;PayPal;Paid;130.89
+1065;1065;2025-03-06;Credit Card;Failed;1254.90
+1066;1066;2025-09-28;Credit Card;Refunded;753.56
+1067;1067;2025-11-11;Google Pay;Pending;118.86
+1068;1068;2025-09-06;Credit Card;Refunded;1307.47
+1069;1069;2025-08-09;PayPal;Paid;1101.79
+1070;1070;2025-09-29;Credit Card;Failed;1041.63
+1071;1071;2025-03-08;Google Pay;Pending;1111.51
+1072;1072;2025-09-12;Google Pay;Pending;1457.24
+1073;1073;2025-12-30;Debit Card;Pending;533.52
+1074;1074;2025-03-04;Google Pay;Failed;57.82
+1075;1075;2025-04-17;Credit Card;Paid;1442.22
+1076;1076;2025-01-24;Apple Pay;Refunded;610.82
+1077;1077;2025-01-06;Google Pay;Refunded;1158.50
+1078;1078;2025-05-11;Debit Card;Paid;1425.50
+1079;1079;2025-09-18;Credit Card;Paid;996.74
+1080;1080;2025-03-01;Google Pay;Refunded;1239.22
+1081;1081;2025-10-19;PayPal;Paid;1114.55
+1082;1082;2025-04-12;PayPal;Paid;604.97
+1083;1083;2025-09-02;Apple Pay;Refunded;1438.10
+1084;1084;2025-09-04;PayPal;Refunded;292.36
+1085;1085;2025-08-26;Google Pay;Paid;1414.42
+1086;1086;2025-09-26;Google Pay;Paid;549.33
+1087;1087;2025-10-14;Credit Card;Refunded;971.56
+1088;1088;2025-07-02;Bank Transfer;Refunded;133.19
+1089;1089;2025-01-18;Credit Card;Paid;620.39
+1090;1090;2025-10-20;Apple Pay;Paid;1096.16
+1091;1091;2025-06-09;PayPal;Paid;1273.90
+1092;1092;2025-05-20;Bank Transfer;Paid;753.76
+1093;1093;2025-07-11;Apple Pay;Paid;821.65
+1094;1094;2025-09-28;Apple Pay;Pending;554.64
+1095;1095;2025-01-20;Google Pay;Refunded;1403.36
+1096;1096;2025-09-17;PayPal;Paid;59.51
+1097;1097;2025-04-10;PayPal;Paid;622.11
+1098;1098;2025-06-18;Bank Transfer;Failed;270.78
+1099;1099;2025-04-18;Credit Card;Failed;1308.36
+1100;1100;2025-09-26;Credit Card;Paid;221.77
+1101;1101;2025-12-18;Debit Card;Refunded;1528.90
+1102;1102;2025-08-28;Debit Card;Paid;1602.20
+1103;1103;2025-01-14;Google Pay;Paid;1045.94
+1104;1104;2025-06-14;Credit Card;Paid;372.99
+1105;1105;2025-10-02;PayPal;Pending;584.68
+1106;1106;2025-05-20;Google Pay;Paid;281.54
+1107;1107;2025-01-09;Google Pay;Refunded;1725.56
+1108;1108;2025-04-16;Google Pay;Refunded;983.41
+1109;1109;2025-05-19;PayPal;Paid;267.68
+1110;1110;2025-10-22;Google Pay;Paid;452.01
+1111;1111;2025-11-10;PayPal;Paid;1607.65
+1112;1112;2025-01-28;PayPal;Pending;247.18
+1113;1113;2025-02-24;Debit Card;Paid;699.73
+1114;1114;2025-07-20;Debit Card;Paid;334.48
+1115;1115;2025-11-13;Google Pay;Pending;649.79
+1116;1116;2025-12-11;Credit Card;Pending;1459.60
+1117;1117;2025-10-19;Apple Pay;Paid;250.25
+1118;1118;2025-02-20;Google Pay;Failed;828.22
+1119;1119;2025-08-30;Google Pay;Refunded;428.57
+1120;1120;2025-11-12;Credit Card;Failed;475.62
+1121;1121;2025-04-05;Debit Card;Failed;1263.81
+1122;1122;2025-06-18;Debit Card;Refunded;824.11
+1123;1123;2025-09-02;PayPal;Refunded;216.50
+1124;1124;2025-03-31;PayPal;Paid;518.83
+1125;1125;2025-09-19;Google Pay;Failed;198.73
+1126;1126;2025-06-18;Google Pay;Paid;1007.73
+1127;1127;2025-09-30;Apple Pay;Paid;837.84
+1128;1128;2025-05-04;Debit Card;Pending;1123.26
+1129;1129;2025-09-05;Credit Card;Paid;700.11
+1130;1130;2025-12-24;Google Pay;Refunded;1069.88
+1131;1131;2025-10-06;Bank Transfer;Paid;1254.03
+1132;1132;2026-01-01;Apple Pay;Paid;1039.93
+1133;1133;2025-11-01;Apple Pay;Pending;1078.99
+1134;1134;2025-08-18;Apple Pay;Paid;329.47
+1135;1135;2025-11-04;Google Pay;Paid;209.11
+1136;1136;2025-06-19;PayPal;Paid;897.32
+1137;1137;2025-02-16;Bank Transfer;Pending;403.44
+1138;1138;2025-03-18;PayPal;Refunded;1194.67
+1139;1139;2025-07-19;Debit Card;Paid;1113.80
+1140;1140;2025-04-17;Debit Card;Pending;1231.51
+1141;1141;2025-10-21;Debit Card;Paid;1432.91
+1142;1142;2025-08-12;Apple Pay;Pending;1296.26
+1143;1143;2025-10-28;Apple Pay;Refunded;29.49
+1144;1144;2025-03-08;Google Pay;Pending;1536.72
+1145;1145;2025-10-10;Debit Card;Paid;1742.70
+1146;1146;2025-02-28;PayPal;Failed;1552.33
+1147;1147;2025-08-11;Bank Transfer;Refunded;1268.47
+1148;1148;2026-01-01;PayPal;Paid;698.28
+1149;1149;2025-10-07;Apple Pay;Paid;392.02
+1150;1150;2025-03-14;Bank Transfer;Paid;350.98
+1151;1151;2025-08-04;Bank Transfer;Failed;290.37
+1152;1152;2025-03-10;Debit Card;Failed;35.71
+1153;1153;2025-03-15;PayPal;Failed;1302.59
+1154;1154;2025-03-13;Apple Pay;Paid;166.12
+1155;1155;2025-08-24;Debit Card;Paid;1610.04
+1156;1156;2025-11-18;PayPal;Paid;335.94
+1157;1157;2025-10-10;PayPal;Paid;1478.83
+1158;1158;2025-04-27;Bank Transfer;Pending;346.64
+1159;1159;2025-10-23;Bank Transfer;Paid;904.21
+1160;1160;2026-01-02;Debit Card;Paid;910.59
+1161;1161;2025-01-18;PayPal;Paid;1761.15
+1162;1162;2025-12-27;Debit Card;Paid;672.91
+1163;1163;2025-12-20;Bank Transfer;Paid;157.91
+1164;1164;2025-08-29;Debit Card;Paid;937.75
+1165;1165;2025-05-08;Apple Pay;Paid;858.33
+1166;1166;2025-12-17;Bank Transfer;Paid;1146.13
+1167;1167;2025-11-11;Credit Card;Pending;109.20
+1168;1168;2025-08-31;Google Pay;Pending;825.45
+1169;1169;2025-08-06;Debit Card;Pending;644.95
+1170;1170;2025-03-29;Bank Transfer;Pending;78.06
+1171;1171;2025-10-18;Debit Card;Paid;479.89
+1172;1172;2025-10-25;Debit Card;Paid;316.81
+1173;1173;2025-11-16;Bank Transfer;Paid;63.73
+1174;1174;2025-03-07;Google Pay;Refunded;917.49
+1175;1175;2025-03-10;Apple Pay;Pending;1114.20
+1176;1176;2025-01-10;Credit Card;Paid;1338.45
+1177;1177;2025-10-31;Google Pay;Refunded;1334.06
+1178;1178;2025-07-11;Credit Card;Paid;1457.00
+1179;1179;2025-09-08;Debit Card;Paid;337.74
+1180;1180;2025-06-26;PayPal;Paid;1771.57
+1181;1181;2025-09-13;Credit Card;Failed;1358.68
+1182;1182;2025-05-04;Bank Transfer;Paid;1194.29
+1183;1183;2025-04-20;Debit Card;Paid;1046.30
+1184;1184;2025-11-26;Debit Card;Paid;486.95
+1185;1185;2025-03-27;PayPal;Pending;843.27
+1186;1186;2025-09-01;PayPal;Pending;1346.88
+1187;1187;2025-07-16;Debit Card;Pending;1235.07
+1188;1188;2025-05-15;PayPal;Paid;274.09
+1189;1189;2025-05-29;Google Pay;Pending;1670.09
+1190;1190;2025-12-14;PayPal;Pending;578.50
+1191;1191;2025-02-19;Debit Card;Pending;1653.12
+1192;1192;2025-08-12;Apple Pay;Paid;1104.72
+1193;1193;2025-06-22;Credit Card;Paid;497.53
+1194;1194;2025-12-04;Google Pay;Paid;1057.76
+1195;1195;2025-12-13;Bank Transfer;Paid;1065.87
+1196;1196;2025-12-13;PayPal;Paid;1247.15
+1197;1197;2025-10-10;Apple Pay;Pending;33.88
+1198;1198;2025-01-09;Bank Transfer;Paid;749.08
+1199;1199;2025-12-18;Google Pay;Refunded;811.01
+1200;1200;2025-05-10;Bank Transfer;Paid;359.65
+1201;1201;2025-01-31;Bank Transfer;Paid;1690.23
+1202;1202;2025-11-05;Google Pay;Paid;1153.98
+1203;1203;2025-02-16;Bank Transfer;Failed;1543.75
+1204;1204;2025-12-04;Bank Transfer;Refunded;1378.49
+1205;1205;2025-02-27;Apple Pay;Paid;1256.74
+1206;1206;2025-08-28;Debit Card;Pending;1193.95
+1207;1207;2025-05-24;Bank Transfer;Refunded;1388.31
+1208;1208;2025-05-12;Debit Card;Paid;304.11
+1209;1209;2025-02-02;Google Pay;Failed;698.30
+1210;1210;2025-05-14;Debit Card;Failed;1720.76
+1211;1211;2025-08-16;Google Pay;Pending;138.88
+1212;1212;2025-04-03;Credit Card;Pending;1167.19
+1213;1213;2025-10-05;Credit Card;Paid;1387.14
+1214;1214;2025-08-16;Bank Transfer;Paid;1291.99
+1215;1215;2025-02-07;Apple Pay;Refunded;140.69
+1216;1216;2025-08-18;PayPal;Pending;48.50
+1217;1217;2025-12-02;Google Pay;Paid;1158.00
+1218;1218;2025-05-17;Apple Pay;Paid;285.62
+1219;1219;2025-10-22;PayPal;Paid;21.61
+1220;1220;2025-09-03;Credit Card;Pending;793.36
+1221;1221;2025-10-05;PayPal;Refunded;418.14
+1222;1222;2025-03-04;Apple Pay;Paid;1027.53
+1223;1223;2025-12-17;Google Pay;Paid;555.55
+1224;1224;2025-07-09;Google Pay;Pending;969.31
+1225;1225;2025-08-24;Debit Card;Paid;1372.41
+1226;1226;2025-04-03;Credit Card;Paid;1004.74
+1227;1227;2025-06-05;Debit Card;Refunded;1257.15
+1228;1228;2025-09-08;Bank Transfer;Paid;166.48
+1229;1229;2025-04-09;Bank Transfer;Refunded;264.80
+1230;1230;2025-11-02;Debit Card;Refunded;440.70
+1231;1231;2025-10-06;Apple Pay;Pending;1163.48
+1232;1232;2025-01-09;Credit Card;Paid;81.12
+1233;1233;2025-01-23;Credit Card;Paid;738.83
+1234;1234;2025-12-16;Google Pay;Refunded;1568.31
+1235;1235;2025-10-24;Bank Transfer;Failed;430.88
+1236;1236;2025-03-16;Credit Card;Paid;887.68
+1237;1237;2025-11-15;Google Pay;Paid;96.76
+1238;1238;2025-01-09;Bank Transfer;Paid;322.46
+1239;1239;2025-02-19;Google Pay;Paid;829.29
+1240;1240;2025-02-26;Google Pay;Refunded;218.81
+1241;1241;2025-02-02;Bank Transfer;Paid;1450.95
+1242;1242;2025-12-14;Apple Pay;Paid;732.59
+1243;1243;2025-06-15;Apple Pay;Failed;1508.02
+1244;1244;2025-11-02;Debit Card;Refunded;324.60
+1245;1245;2025-05-21;PayPal;Failed;267.11
+1246;1246;2025-12-24;Debit Card;Pending;675.32
+1247;1247;2025-05-06;Google Pay;Refunded;1667.33
+1248;1248;2025-02-21;PayPal;Failed;1427.03
+1249;1249;2025-03-24;Credit Card;Failed;42.90
+1250;1250;2025-01-05;Debit Card;Refunded;27.89
+1251;1251;2025-08-03;PayPal;Paid;1252.90
+1252;1252;2025-12-22;Debit Card;Paid;241.50
+1253;1253;2025-09-26;Google Pay;Paid;819.00
+1254;1254;2025-11-10;PayPal;Pending;1249.64
+1255;1255;2025-09-15;Google Pay;Paid;1107.51
+1256;1256;2025-06-28;Debit Card;Paid;762.53
+1257;1257;2025-04-09;Google Pay;Paid;224.75
+1258;1258;2025-11-13;Credit Card;Failed;660.99
+1259;1259;2025-08-27;Google Pay;Refunded;1390.04
+1260;1260;2025-05-24;Bank Transfer;Failed;109.73
+1261;1261;2025-12-18;Google Pay;Failed;1521.15
+1262;1262;2025-04-02;Apple Pay;Pending;300.17
+1263;1263;2025-11-28;Apple Pay;Paid;665.08
+1264;1264;2025-05-10;PayPal;Paid;611.72
+1265;1265;2025-01-24;Bank Transfer;Paid;201.39
+1266;1266;2025-03-23;Google Pay;Pending;1417.10
+1267;1267;2025-02-06;Apple Pay;Refunded;1612.72
+1268;1268;2025-10-31;Google Pay;Pending;1049.87
+1269;1269;2025-12-14;Bank Transfer;Paid;1618.60
+1270;1270;2025-06-18;Apple Pay;Paid;421.59
+1271;1271;2025-04-15;Bank Transfer;Failed;685.33
+1272;1272;2025-08-31;Credit Card;Paid;1059.39
+1273;1273;2025-03-18;Apple Pay;Paid;400.85
+1274;1274;2025-04-03;PayPal;Paid;706.38
+1275;1275;2025-04-11;Google Pay;Pending;1143.16
+1276;1276;2025-06-21;Debit Card;Failed;242.07
+1277;1277;2025-05-26;Debit Card;Failed;258.66
+1278;1278;2025-08-04;Apple Pay;Pending;320.59
+1279;1279;2025-06-02;Credit Card;Paid;1092.49
+1280;1280;2025-10-25;Google Pay;Pending;1746.69
+1281;1281;2025-07-30;Bank Transfer;Failed;1544.70
+1282;1282;2025-10-30;Bank Transfer;Failed;860.18
+1283;1283;2025-01-08;Credit Card;Pending;1318.08
+1284;1284;2025-05-07;Debit Card;Paid;599.22
+1285;1285;2025-11-01;PayPal;Paid;1704.06
+1286;1286;2025-08-02;Google Pay;Pending;1764.63
+1287;1287;2025-09-18;Bank Transfer;Paid;75.01
+1288;1288;2025-09-03;Bank Transfer;Failed;1460.34
+1289;1289;2025-08-21;PayPal;Paid;899.08
+1290;1290;2025-12-23;Credit Card;Refunded;1321.24
+1291;1291;2025-07-05;Google Pay;Refunded;542.99
+1292;1292;2025-01-10;Apple Pay;Failed;871.41
+1293;1293;2025-12-29;Bank Transfer;Paid;834.82
+1294;1294;2025-08-22;Bank Transfer;Pending;842.81
+1295;1295;2025-04-06;Bank Transfer;Paid;1424.90
+1296;1296;2025-12-27;Bank Transfer;Paid;1145.62
+1297;1297;2025-07-17;Apple Pay;Paid;1609.78
+1298;1298;2025-06-02;Google Pay;Paid;775.24
+1299;1299;2025-12-19;Credit Card;Pending;159.51
+1300;1300;2025-09-23;Google Pay;Pending;1702.40
+1301;1301;2025-01-28;Bank Transfer;Paid;213.08
+1302;1302;2025-11-15;Credit Card;Failed;87.96
+1303;1303;2025-11-28;Debit Card;Failed;1012.44
+1304;1304;2025-03-14;Apple Pay;Paid;1766.53
+1305;1305;2025-12-01;Apple Pay;Refunded;869.11
+1306;1306;2025-04-27;Credit Card;Paid;587.03
+1307;1307;2025-05-24;Debit Card;Paid;112.21
+1308;1308;2025-08-22;Google Pay;Pending;882.92
+1309;1309;2025-08-31;Credit Card;Paid;1282.04
+1310;1310;2025-08-20;Google Pay;Failed;1123.40
+1311;1311;2025-04-09;Bank Transfer;Failed;1607.05
+1312;1312;2025-02-13;Debit Card;Paid;712.37
+1313;1313;2025-02-10;PayPal;Refunded;210.22
+1314;1314;2025-12-23;Debit Card;Pending;279.10
+1315;1315;2025-09-26;Debit Card;Paid;1714.51
+1316;1316;2025-08-02;PayPal;Paid;1745.69
+1317;1317;2025-08-31;Debit Card;Failed;633.86
+1318;1318;2025-05-31;Bank Transfer;Paid;352.47
+1319;1319;2025-09-26;Apple Pay;Pending;1165.74
+1320;1320;2025-12-02;Debit Card;Pending;1168.20
+1321;1321;2025-11-02;Google Pay;Paid;1203.55
+1322;1322;2025-08-25;PayPal;Paid;557.79
+1323;1323;2025-03-29;Bank Transfer;Refunded;1423.84
+1324;1324;2025-07-10;Credit Card;Refunded;1747.74
+1325;1325;2025-03-17;Google Pay;Refunded;645.32
+1326;1326;2025-11-14;Apple Pay;Pending;1664.57
+1327;1327;2025-04-05;Credit Card;Pending;1752.17
+1328;1328;2025-03-25;Google Pay;Failed;439.66
+1329;1329;2025-10-22;Google Pay;Failed;240.76
+1330;1330;2025-04-07;Apple Pay;Refunded;381.20
+1331;1331;2025-12-07;Bank Transfer;Pending;580.74
+1332;1332;2025-07-12;Credit Card;Paid;815.45
+1333;1333;2025-03-05;Google Pay;Paid;1657.97
+1334;1334;2025-03-17;Bank Transfer;Refunded;1706.80
+1335;1335;2025-01-05;Google Pay;Refunded;1746.72
+1336;1336;2025-11-29;Bank Transfer;Paid;1274.23
+1337;1337;2025-10-21;Debit Card;Paid;1205.39
+1338;1338;2025-06-25;Credit Card;Refunded;1245.13
+1339;1339;2025-01-21;PayPal;Pending;263.87
+1340;1340;2025-06-09;PayPal;Paid;59.26
+1341;1341;2025-08-17;Bank Transfer;Paid;652.95
+1342;1342;2025-11-09;Credit Card;Paid;1159.74
+1343;1343;2025-05-25;Google Pay;Paid;364.35
+1344;1344;2025-12-14;Google Pay;Pending;1213.73
+1345;1345;2025-04-10;PayPal;Paid;890.48
+1346;1346;2025-12-09;Google Pay;Pending;659.50
+1347;1347;2025-07-10;Bank Transfer;Refunded;704.21
+1348;1348;2025-06-27;Apple Pay;Paid;642.17
+1349;1349;2025-04-23;Credit Card;Paid;1314.22
+1350;1350;2025-08-15;Apple Pay;Paid;530.21
+1351;1351;2025-08-01;Debit Card;Paid;264.13
+1352;1352;2025-03-17;PayPal;Refunded;385.89
+1353;1353;2025-02-04;PayPal;Refunded;1680.68
+1354;1354;2025-02-15;Apple Pay;Refunded;26.81
+1355;1355;2025-08-02;Bank Transfer;Refunded;327.18
+1356;1356;2025-04-14;Google Pay;Paid;347.02
+1357;1357;2025-10-11;Google Pay;Refunded;890.70
+1358;1358;2025-09-10;Debit Card;Failed;1013.32
+1359;1359;2025-01-15;Bank Transfer;Paid;1427.33
+1360;1360;2025-06-05;Debit Card;Paid;1721.51
+1361;1361;2025-03-05;Apple Pay;Paid;1182.06
+1362;1362;2025-04-02;Apple Pay;Paid;893.02
+1363;1363;2025-01-16;PayPal;Refunded;228.05
+1364;1364;2025-02-06;Google Pay;Failed;1084.02
+1365;1365;2025-10-18;Bank Transfer;Failed;793.38
+1366;1366;2025-12-22;PayPal;Refunded;1475.63
+1367;1367;2025-05-13;Apple Pay;Failed;305.68
+1368;1368;2025-06-14;Apple Pay;Paid;837.96
+1369;1369;2025-07-03;Bank Transfer;Refunded;306.51
+1370;1370;2025-08-03;Apple Pay;Pending;1150.70
+1371;1371;2025-05-29;Bank Transfer;Pending;535.62
+1372;1372;2025-09-21;Google Pay;Paid;360.96
+1373;1373;2025-02-19;Debit Card;Paid;1083.79
+1374;1374;2025-06-11;Debit Card;Paid;1490.88
+1375;1375;2025-05-20;Apple Pay;Refunded;1238.52
+1376;1376;2025-02-19;Google Pay;Paid;968.94
+1377;1377;2025-01-08;Bank Transfer;Pending;259.45
+1378;1378;2025-09-08;Google Pay;Paid;750.41
+1379;1379;2025-04-24;Apple Pay;Paid;290.88
+1380;1380;2025-10-16;Debit Card;Paid;1109.97
+1381;1381;2025-08-04;Credit Card;Pending;836.98
+1382;1382;2025-03-11;Credit Card;Paid;1663.29
+1383;1383;2025-06-11;Credit Card;Paid;1248.53
+1384;1384;2025-11-04;Apple Pay;Refunded;948.77
+1385;1385;2026-01-01;Credit Card;Paid;558.86
+1386;1386;2025-04-25;Apple Pay;Failed;244.76
+1387;1387;2025-12-19;Debit Card;Paid;419.44
+1388;1388;2025-03-10;Debit Card;Refunded;1766.28
+1389;1389;2025-02-11;Debit Card;Paid;48.57
+1390;1390;2025-01-24;Google Pay;Pending;365.49
+1391;1391;2025-08-29;Credit Card;Failed;227.28
+1392;1392;2025-02-04;Apple Pay;Paid;553.44
+1393;1393;2025-03-05;Google Pay;Paid;1657.38
+1394;1394;2025-04-07;Credit Card;Paid;1212.02
+1395;1395;2025-03-18;PayPal;Paid;1524.86
+1396;1396;2025-06-30;Debit Card;Paid;301.59
+1397;1397;2025-09-18;Apple Pay;Pending;1032.87
+1398;1398;2025-09-29;Credit Card;Failed;402.34
+1399;1399;2025-03-29;PayPal;Refunded;1624.46
+1400;1400;2025-02-20;Debit Card;Pending;1664.75
+1401;1401;2025-07-07;Bank Transfer;Paid;1261.17
+1402;1402;2025-12-12;Debit Card;Paid;1724.58
+1403;1403;2025-07-16;Apple Pay;Paid;772.00
+1404;1404;2025-07-30;Bank Transfer;Paid;216.43
+1405;1405;2025-08-29;Credit Card;Failed;211.91
+1406;1406;2025-07-05;Credit Card;Refunded;1272.94
+1407;1407;2025-02-13;Google Pay;Paid;600.69
+1408;1408;2025-05-28;Google Pay;Failed;830.65
+1409;1409;2025-12-19;Credit Card;Paid;1757.48
+1410;1410;2025-10-12;Apple Pay;Paid;742.00
+1411;1411;2025-02-06;Google Pay;Paid;1612.14
+1412;1412;2025-04-03;Apple Pay;Pending;37.82
+1413;1413;2025-12-13;PayPal;Refunded;202.73
+1414;1414;2025-03-04;PayPal;Failed;270.91
+1415;1415;2025-03-28;PayPal;Paid;130.51
+1416;1416;2025-04-15;Apple Pay;Failed;1077.01
+1417;1417;2025-05-01;Google Pay;Pending;1511.02
+1418;1418;2025-05-23;Debit Card;Pending;1380.20
+1419;1419;2025-11-26;PayPal;Failed;1698.66
+1420;1420;2025-12-09;Bank Transfer;Paid;1091.65
+1421;1421;2025-09-19;Credit Card;Pending;512.82
+1422;1422;2025-02-27;PayPal;Paid;233.11
+1423;1423;2025-04-30;PayPal;Refunded;1136.64
+1424;1424;2025-02-22;Apple Pay;Paid;1331.97
+1425;1425;2025-12-14;Credit Card;Paid;62.75
+1426;1426;2025-11-06;PayPal;Failed;1227.38
+1427;1427;2025-11-16;PayPal;Failed;1127.47
+1428;1428;2025-12-06;Credit Card;Refunded;1356.62
+1429;1429;2025-08-28;Apple Pay;Paid;375.45
+1430;1430;2025-09-11;Google Pay;Paid;916.06
+1431;1431;2025-10-05;Debit Card;Paid;990.72
+1432;1432;2025-08-10;Debit Card;Paid;1586.02
+1433;1433;2025-08-21;Google Pay;Paid;576.49
+1434;1434;2025-08-25;Apple Pay;Pending;79.23
+1435;1435;2025-12-30;Apple Pay;Pending;308.00
+1436;1436;2025-06-11;PayPal;Paid;1292.57
+1437;1437;2025-10-20;Bank Transfer;Paid;1219.92
+1438;1438;2025-09-02;Debit Card;Paid;1018.63
+1439;1439;2025-07-21;Google Pay;Paid;485.15
+1440;1440;2025-11-14;PayPal;Pending;1222.53
+1441;1441;2025-06-15;Bank Transfer;Failed;124.64
+1442;1442;2025-03-08;Bank Transfer;Paid;1508.93
+1443;1443;2025-11-18;Credit Card;Pending;624.14
+1444;1444;2025-06-27;Google Pay;Paid;1785.62
+1445;1445;2025-01-30;PayPal;Paid;1195.31
+1446;1446;2025-11-30;Debit Card;Paid;572.10
+1447;1447;2025-06-08;Google Pay;Paid;219.33
+1448;1448;2025-10-04;PayPal;Paid;597.12
+1449;1449;2025-10-19;Bank Transfer;Pending;933.85
+1450;1450;2025-01-12;Apple Pay;Failed;1257.29
+1451;1451;2025-06-14;Debit Card;Paid;689.26
+1452;1452;2025-10-23;Apple Pay;Pending;189.44
+1453;1453;2025-12-21;Credit Card;Paid;1220.07
+1454;1454;2025-09-15;Debit Card;Paid;1463.45
+1455;1455;2025-03-29;Bank Transfer;Refunded;1112.47
+1456;1456;2025-04-16;Bank Transfer;Paid;902.06
+1457;1457;2025-05-30;Bank Transfer;Refunded;488.30
+1458;1458;2025-04-28;Bank Transfer;Paid;1129.86
+1459;1459;2025-11-01;Apple Pay;Failed;616.26
+1460;1460;2025-08-08;Credit Card;Paid;389.38
+1461;1461;2025-09-16;Google Pay;Paid;1450.37
+1462;1462;2025-04-14;Apple Pay;Paid;754.55
+1463;1463;2025-12-11;PayPal;Paid;1377.74
+1464;1464;2025-11-19;Debit Card;Refunded;1270.45
+1465;1465;2025-04-20;PayPal;Refunded;1194.54
+1466;1466;2025-05-19;Debit Card;Paid;1687.84
+1467;1467;2025-10-19;PayPal;Failed;1312.01
+1468;1468;2025-07-06;Apple Pay;Paid;840.54
+1469;1469;2025-12-18;Debit Card;Paid;1381.47
+1470;1470;2025-06-15;Apple Pay;Refunded;1550.43
+1471;1471;2025-08-01;Apple Pay;Failed;491.48
+1472;1472;2025-05-13;Google Pay;Paid;1241.04
+1473;1473;2025-05-03;Credit Card;Refunded;217.70
+1474;1474;2025-05-08;Google Pay;Paid;1437.72
+1475;1475;2025-09-07;Bank Transfer;Refunded;1014.29
+1476;1476;2025-11-28;Debit Card;Paid;1631.60
+1477;1477;2025-05-21;Debit Card;Pending;258.53
+1478;1478;2025-12-05;PayPal;Paid;998.01
+1479;1479;2025-09-08;Google Pay;Paid;1411.29
+1480;1480;2025-06-11;Apple Pay;Refunded;1088.86
+1481;1481;2025-07-06;Debit Card;Paid;1213.93
+1482;1482;2025-03-15;Bank Transfer;Pending;436.33
+1483;1483;2025-09-26;Bank Transfer;Paid;1200.63
+1484;1484;2025-09-14;Credit Card;Failed;1593.95
+1485;1485;2025-06-11;Credit Card;Failed;602.78
+1486;1486;2025-05-02;Credit Card;Failed;1684.87
+1487;1487;2025-02-25;Apple Pay;Pending;327.65
+1488;1488;2025-07-30;Apple Pay;Paid;468.94
+1489;1489;2025-09-11;Credit Card;Refunded;967.24
+1490;1490;2025-06-12;Apple Pay;Paid;989.15
+1491;1491;2025-05-25;Credit Card;Failed;1584.79
+1492;1492;2025-09-01;Apple Pay;Paid;1292.47
+1493;1493;2025-11-29;Bank Transfer;Failed;1740.75
+1494;1494;2025-12-08;Debit Card;Paid;1441.11
+1495;1495;2025-05-12;Bank Transfer;Paid;1001.62
+1496;1496;2025-12-18;Bank Transfer;Refunded;232.87
+1497;1497;2025-07-18;Google Pay;Paid;29.04
+1498;1498;2025-06-04;Debit Card;Refunded;176.10
+1499;1499;2025-06-04;PayPal;Pending;390.54
+1500;1500;2025-11-22;Google Pay;Refunded;581.17

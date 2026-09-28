@@ -1,0 +1,31 @@
+ServiceId;ServicePrice;ServiceName
+1;29.99;Basic Installation
+2;79.99;Premium Installation
+3;49.99;Device Setup
+4;69.99;Data Transfer
+5;149.99;Data Recovery
+6;59.99;Virus Removal
+7;39.99;System Cleanup
+8;99.99;Computer Repair
+9;119.99;Laptop Repair
+10;89.99;Phone Repair
+11;129.99;Screen Replacement
+12;79.99;Battery Replacement
+13;89.99;Network Setup
+14;69.99;WiFi Installation
+15;49.99;Printer Setup
+16;39.99;Software Installation
+17;79.99;Operating System Installation
+18;59.99;Cloud Backup Setup
+19;69.99;Security Configuration
+20;49.99;Remote Support
+21;99.99;On-Site Support
+22;89.99;Technical Consultation
+23;199.99;Website Setup
+24;39.99;Email Setup
+25;249.99;Database Setup
+26;299.99;Server Configuration
+27;199.99;Network Security Audit
+28;79.99;Computer Maintenance
+29;299.99;Annual Support Plan
+30;499.99;Premium Support Plan
