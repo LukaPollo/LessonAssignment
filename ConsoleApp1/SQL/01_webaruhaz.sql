@@ -1,3 +1,4 @@
+/*
 CREATE TABLE Users (
     UserId INT AUTO_INCREMENT PRIMARY KEY,
     Username VARCHAR(255),
@@ -71,3 +72,4 @@ CREATE TABLE Cart (
     FOREIGN KEY (ProductId) REFERENCES Product(ProductId),
     FOREIGN KEY (ServiceId) REFERENCES Service(ServiceId)
 );
+*/

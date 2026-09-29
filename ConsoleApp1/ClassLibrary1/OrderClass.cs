@@ -95,7 +95,7 @@ namespace ClassLibrary1
         public decimal Amount { get; set; }
         public DateTime PaymentDate { get; set; }
     }
-    public class cart
+    public class Cart
     {
         public int CartId { get; set; }
         public int UserId { get; set; }
