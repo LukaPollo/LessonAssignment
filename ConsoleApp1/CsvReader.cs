@@ -3,6 +3,7 @@ using System.Globalization;
 using System.IO;
 using System.Linq;
 using CsvHelper;
+using CsvHelper.Configuration;
 
 public static class CsvReaderService
 {
@@ -10,10 +11,18 @@ public static class CsvReaderService
     {
         using (StreamReader reader = new StreamReader(filePath))
         {
-            using (CsvReader csv = new CsvReader(reader, CultureInfo.InvariantCulture))
+            // ???
+            using (CsvReader csv = new CsvReader(reader, new CsvConfiguration(new CultureInfo(""))
             {
-                return csv.GetRecords<T>().ToList(); // column name discrepancy error 
+                Delimiter = ";",
+                HeaderValidated = null,
+                MissingFieldFound = null,
+                ReadingExceptionOccurred = args => false
+            }))
+            {
+                return csv.GetRecords<T>().ToList();
             }
+            // ???
         }
     }
 }
