@@ -11,12 +11,11 @@ public static class CsvReaderService
     {
         using (StreamReader reader = new StreamReader(filePath))
         {
-            // ???
+            // ??? not working as it should after tests, fix and understand
             using (CsvReader csv = new CsvReader(reader, new CsvConfiguration(new CultureInfo(""))
             {
                 Delimiter = ";",
                 HeaderValidated = null,
-                MissingFieldFound = null,
                 ReadingExceptionOccurred = args => false
             }))
             {

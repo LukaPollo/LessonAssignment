@@ -62,10 +62,6 @@ namespace ConsoleApp1
             List<ServiceOrder> services = CsvReaderService.ReadCsv<ServiceOrder>("C:\\Users\\podluk956\\source\\repos\\ConsoleApp1\\ConsoleApp1\\csvFiles\\Service.csv");
             List<Users> users = CsvReaderService.ReadCsv<Users>("C:\\Users\\podluk956\\source\\repos\\ConsoleApp1\\ConsoleApp1\\csvFiles\\Users.csv");
 
-            //Console.WriteLine($"Addresses read: {addresses.Count}");
-            //Console.WriteLine($"Carts read: {carts.Count}");
-            //Console.WriteLine($"First delivery: {deliveries.First()}");
-
             Console.ReadKey();
 
             string dbPath = "server=localhost;port=3307;database=webaruhaz;uid=root";
