@@ -62,7 +62,7 @@ namespace ConsoleApp1
                     cmd.ExecuteNonQuery();
                 }
 
-                using (MySqlTransaction transaction = conn.BeginTransaction())
+                using (MySqlTransaction transaction = conn.BeginTransaction()) //https://learn.microsoft.com/en-us/dotnet/api/system.data.sqlclient.sqlconnection.begintransaction?view=netframework-4.8.1
                 {
                     string dataLoadUsers = "INSERT INTO users (UserId, Username, UserEmail, UserPassword) VALUES (@UserId, @Username, @UserEmail, @UserPassword)";
                     string dataLoadProduct = "INSERT INTO product (ProductId, ProductPrice, ProductName) VALUES (@ProductId, @ProductPrice, @ProductName)";
