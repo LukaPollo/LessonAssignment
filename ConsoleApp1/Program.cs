@@ -1,19 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Net.Http.Headers;
-using System.Runtime.CompilerServices;
-using System.Text;
-using System.Threading.Tasks;
+using System.IO;
 using ClassLibrary1;
-using Mysqlx.Crud;
-using MySqlX.XDevAPI;
 
 namespace ConsoleApp1
 {
     internal class Program
     {
-        public const float VAT = 0.27f; 
+        public const float VAT = 0.27f;
+
         public static decimal CalcVat(Iorder order)
         {
             return order.price * (decimal)VAT;
@@ -23,9 +18,9 @@ namespace ConsoleApp1
         {
             return order.price + CalcVat(order);
         }
-        
+
         static void Main(string[] args)
-        {      
+        {
             var myLittleOrder = new OrderClass(3);
             var myLittlePOrder = new ProductOrder(4, 6, 5765675764543, "termek");
             var myLittleSOrder = new ServiceOrder(5, 1000, "szolgaltatas");
@@ -33,7 +28,6 @@ namespace ConsoleApp1
             var second = (IproductOrder)myLittlePOrder;
             var third = (Iorder)myLittlePOrder;
             var fourth = (Iorder)myLittleSOrder;
-
 
             //Console.WriteLine(myLittleOrder.Id);
             //Console.WriteLine(myLittlePOrder.productId);
@@ -52,20 +46,22 @@ namespace ConsoleApp1
             //Console.WriteLine(fourth.name);
             //Console.WriteLine(CalcGross(fourth));
 
+            string csvFolder = @"C:\Users\explo\Documents\Iskola\Mas\LessonAssignment\ConsoleApp1\csvFiles";
 
-            List<Address> addresses = CsvReaderService.ReadCsv<Address>("C:\\Users\\podluk956\\source\\repos\\ConsoleApp1\\ConsoleApp1\\csvFiles\\Address.csv");
-            List<Cart> carts = CsvReaderService.ReadCsv<Cart>("C:\\Users\\podluk956\\source\\repos\\ConsoleApp1\\ConsoleApp1\\csvFiles\\Cart.csv");
-            List<Delivery> deliveries = CsvReaderService.ReadCsv<Delivery>("C:\\Users\\podluk956\\source\\repos\\ConsoleApp1\\ConsoleApp1\\csvFiles\\Delivery.csv");
-            List<OrderClass> orders = CsvReaderService.ReadCsv<OrderClass>("C:\\Users\\podluk956\\source\\repos\\ConsoleApp1\\ConsoleApp1\\csvFiles\\Orders.csv");
-            List<Payment> payments = CsvReaderService.ReadCsv<Payment>("C:\\Users\\podluk956\\source\\repos\\ConsoleApp1\\ConsoleApp1\\csvFiles\\Payment.csv");
-            List<ProductOrder> products = CsvReaderService.ReadCsv<ProductOrder>("C:\\Users\\podluk956\\source\\repos\\ConsoleApp1\\ConsoleApp1\\csvFiles\\Product.csv");
-            List<ServiceOrder> services = CsvReaderService.ReadCsv<ServiceOrder>("C:\\Users\\podluk956\\source\\repos\\ConsoleApp1\\ConsoleApp1\\csvFiles\\Service.csv");
-            List<Users> users = CsvReaderService.ReadCsv<Users>("C:\\Users\\podluk956\\source\\repos\\ConsoleApp1\\ConsoleApp1\\csvFiles\\Users.csv");
+            List<Address> addresses = CsvReaderService.ReadAddresses(Path.Combine(csvFolder, "Address.csv"));
+            List<Cart> carts = CsvReaderService.ReadCarts(Path.Combine(csvFolder, "Cart.csv"));
+            List<Delivery> deliveries = CsvReaderService.ReadDeliveries(Path.Combine(csvFolder, "Delivery.csv"));
+            List<OrderClass> orders = CsvReaderService.ReadOrders(Path.Combine(csvFolder, "Orders.csv"));
+            List<Payment> payments = CsvReaderService.ReadPayments(Path.Combine(csvFolder, "Payment.csv"));
+            List<ProductOrder> products = CsvReaderService.ReadProducts(Path.Combine(csvFolder, "Product.csv"));
+            List<ServiceOrder> services = CsvReaderService.ReadServices(Path.Combine(csvFolder, "Service.csv"));
+            List<Users> users = CsvReaderService.ReadUsers(Path.Combine(csvFolder, "Users.csv"));
+
+            string dbPath = "server=localhost;port=3306;database=webaruhaz;uid=root";
 
             Console.ReadKey();
 
-            string dbPath = "server=localhost;port=3307;database=webaruhaz;uid=root";
-            Database.DatabaseConn(dbPath);
+            Database.DatabaseConn(dbPath, users, products, services, addresses, orders, deliveries, payments, carts);
         }
     }
 }
