@@ -2,12 +2,13 @@
 using MySql.Data.MySqlClient;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 
 namespace ConsoleApp1
 {
     internal class Database
     {
-        public static void DatabaseConn(string connection, List<Users> users, List<ProductOrder> products, List<ServiceOrder> services, List<Address> addresses, List<OrderClass> orders, List<Delivery> deliveries, List<Payment> payments, List<Cart> carts)
+        public static void DatabaseConn(string connection, List<Users> users, List<ProductOrder> products, List<ServiceOrder> services, List<Address> addresses, List<OrderClass> orders, List<Delivery> deliveries, List<Payment> payments, List<Cart> carts, AddictedUser auser)
         {
             using (MySqlConnection conn = new MySqlConnection(connection))
             {
@@ -256,6 +257,18 @@ namespace ConsoleApp1
                     transaction.Commit();
                     Console.WriteLine("Data inserted successfully.");
                     Console.ReadKey();
+                }
+                string selectMostAddictedUser = "SELECT UserId, COUNT(UserId) AS db FROM `orders` GROUP BY UserId ORDER BY COUNT(UserId) DESC LIMIT 1";
+                using (MySqlCommand cmd = new MySqlCommand(selectMostAddictedUser, conn))
+                {
+                    using (MySqlDataReader reader = cmd.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            auser.UserId = reader.GetInt32("UserId");
+                            auser.OrderCount = reader.GetInt32("db");
+                        }
+                    }
                 }
             }
         }

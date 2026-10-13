@@ -118,4 +118,9 @@ namespace ClassLibrary1
         public int Quantity { get; set; }
         public DateTime AddedDate { get; set; }
     }
+    public class AddictedUser
+    {
+        public int UserId { get; set; }
+        public int OrderCount { get; set; }
+    }
 }

@@ -28,7 +28,7 @@ namespace ConsoleApp1
             var second = (IproductOrder)myLittlePOrder;
             var third = (Iorder)myLittlePOrder;
             var fourth = (Iorder)myLittleSOrder;
-
+            
             //Console.WriteLine(myLittleOrder.Id);
             //Console.WriteLine(myLittlePOrder.productId);
             //Console.WriteLine(myLittlePOrder.Id);
@@ -46,7 +46,7 @@ namespace ConsoleApp1
             //Console.WriteLine(fourth.name);
             //Console.WriteLine(CalcGross(fourth));
 
-            string csvFolder = @"C:\Users\explo\Documents\Iskola\Mas\LessonAssignment\ConsoleApp1\csvFiles";
+            string csvFolder = @"C:\Users\podluk956\Downloads\LessonAssignment\ConsoleApp1\csvFiles\";
 
             List<Address> addresses = CsvReaderService.ReadAddresses(Path.Combine(csvFolder, "Address.csv"));
             List<Cart> carts = CsvReaderService.ReadCarts(Path.Combine(csvFolder, "Cart.csv"));
@@ -57,11 +57,21 @@ namespace ConsoleApp1
             List<ServiceOrder> services = CsvReaderService.ReadServices(Path.Combine(csvFolder, "Service.csv"));
             List<Users> users = CsvReaderService.ReadUsers(Path.Combine(csvFolder, "Users.csv"));
 
-            string dbPath = "server=localhost;port=3306;database=webaruhaz;uid=root";
+            string dbPath = "server=localhost;port=3307;database=webaruhaz;uid=root";
 
+            /*
+             SELECT UserId, COUNT(UserId) AS db FROM `orders`
+             GROUP BY UserId
+             ORDER BY COUNT(UserId) DESC;
+             */
+            AddictedUser addictedUser = new AddictedUser();
+
+
+            Database.DatabaseConn(dbPath, users, products, services, addresses, orders, deliveries, payments, carts, addictedUser);
+            Console.WriteLine(addictedUser.UserId);
+            Console.WriteLine(addictedUser.OrderCount);
             Console.ReadKey();
 
-            Database.DatabaseConn(dbPath, users, products, services, addresses, orders, deliveries, payments, carts);
         }
     }
 }
