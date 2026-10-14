@@ -4,6 +4,8 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Net.Http;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -18,7 +20,7 @@ namespace winforms
             public string Username { get; set; }
         }
 
-        public class Orders
+        public class Orders                                                       
         {
             public int OrderId { get; set; }
             public decimal OrderValue { get; set; }
@@ -37,7 +39,9 @@ namespace winforms
         {
             Database1();
             dataGridView1.DataSource = users;
+            //dataGridView1_CellContentClick(sender, new DataGridViewCellEventArgs(0, 0));
         }
+
         public string connString = "server=localhost;port=3307;database=webaruhaz;uid=root";
         public void Database1()
         {
@@ -60,18 +64,6 @@ namespace winforms
                 }
             }
         }
-
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-            if (e.RowIndex >= 0)
-            {
-                string selectedUsername = dataGridView1.Rows[e.RowIndex].Cells["Username"].Value.ToString();
-                Database2(selectedUsername);
-                dataGridView2.DataSource = orders;
-                //dataGridView2.DataBind(); not working ...
-            }
-        }
-
         public void Database2(string username)
         {
             using (MySqlConnection conn = new MySqlConnection(connString))
@@ -102,6 +94,30 @@ namespace winforms
 
         private void dataGridView2_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
+
         }
+
+        private void dataGridView1_CellContentClick_1(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.RowIndex >= 0)
+            {
+                string selectedUsername = dataGridView1.Rows[e.RowIndex].Cells["Username"].Value.ToString();
+
+                orders.Clear();
+                Database2(selectedUsername);
+                dataGridView2.DataSource = orders;
+                dataGridView2.Refresh();
+            }
+        }
+        /*
+         https://cataas.com/cat api with /cat for random cat create profile picture for every user when clicked on (dataGridView1_CellContentClick_1) and cache in UserPictures folder 
+         */
+
+        public void ApiService()
+        {
+            HttpClient client = new HttpClient();
+            
+        }
+
     }
 }
