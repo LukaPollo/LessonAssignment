@@ -55,7 +55,7 @@ namespace winforms
         }
         private void dataGridView1_CellContentClick_1(object sender, DataGridViewCellEventArgs e)
         {
-            string dbPath = "server=localhost;port=3307;database=webaruhaz;uid=root";
+            string dbPath = "server=localhost;port=3306;database=webaruhaz;uid=root"; 
             Database(dbPath); 
             dataGridView1.DataSource = usersOrders; 
         }

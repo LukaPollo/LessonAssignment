@@ -1,15 +1,10 @@
-﻿using System;
+﻿using MySqlConnector;
+using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
+using System.IO;
 using System.Net.Http;
-using System.Security.Cryptography.X509Certificates;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using MySql.Data.MySqlClient;
 
 namespace winforms
 {
@@ -17,6 +12,7 @@ namespace winforms
     {
         public class Users
         {
+            public int UserId { get; set; }
             public string Username { get; set; }
         }
 
@@ -40,23 +36,26 @@ namespace winforms
             Database1();
             dataGridView1.DataSource = users;
             //dataGridView1_CellContentClick(sender, new DataGridViewCellEventArgs(0, 0));
+            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
         }
 
-        public string connString = "server=localhost;port=3307;database=webaruhaz;uid=root";
+        public string connString = "server=localhost;port=3306;database=webaruhaz;uid=root";
         public void Database1()
         {
             using (MySqlConnection conn = new MySqlConnection(connString))
             {
                 conn.Open();
-                string selectString = "SELECT users.Username FROM users;";
+                string selectString = "SELECT users.UserId, users.Username FROM users;";
                 using (MySqlCommand cmd = new MySqlCommand(selectString, conn))
                 {
                     using (MySqlDataReader reader = cmd.ExecuteReader())
                     {
                         while (reader.Read())
                         {
-                            string username = reader.GetString(0);
+                            int userId = reader.GetInt32(0);
+                            string username = reader.GetString(1);
                             Users newUser = new Users();
+                            newUser.UserId = userId;
                             newUser.Username = username;
                             users.Add(newUser);
                         }
@@ -107,16 +106,32 @@ namespace winforms
                 Database2(selectedUsername);
                 dataGridView2.DataSource = orders;
                 dataGridView2.Refresh();
+
+                int userId = Convert.ToInt32(dataGridView1.Rows[e.RowIndex].Cells["UserId"].Value);
+
+                string folderUsersImg = "C:\\Users\\explo\\Documents\\Iskola\\Mas\\LessonAssignment\\winforms\\winforms\\UserPictures\\";
+                string imagePath = "C:\\Users\\explo\\Documents\\Iskola\\Mas\\LessonAssignment\\winforms\\winforms\\UserPictures\\user_" + userId + ".jpg";
+                string link = "https://cataas.com/cat";
+                pictureBox1.Image = ApiService(link, imagePath);
             }
         }
         /*
          https://cataas.com/cat api with /cat for random cat create profile picture for every user when clicked on (dataGridView1_CellContentClick_1) and cache in UserPictures folder 
          */
 
-        public void ApiService()
+        public static Image ApiService(string link, string imagePath)
         {
             HttpClient client = new HttpClient();
-            
+
+            if (File.Exists(imagePath))
+            {
+                return Image.FromFile(imagePath);
+            }
+
+            var downloadedImage = client.GetByteArrayAsync(link).Result;
+            File.WriteAllBytes(imagePath, downloadedImage);
+
+            return Image.FromFile(imagePath);
         }
 
     }
